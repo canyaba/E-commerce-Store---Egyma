@@ -3,6 +3,12 @@
 require 'test_helper'
 
 class OrdersControllerTest < ActionDispatch::IntegrationTest
+  test 'redirects guests away from order history' do
+    get orders_url
+
+    assert_redirected_to new_user_session_url
+  end
+
   test 'lists the current user orders' do
     sign_in users(:one)
 
@@ -31,5 +37,11 @@ class OrdersControllerTest < ActionDispatch::IntegrationTest
     get order_url(orders(:other_user_order))
 
     assert_response :not_found
+  end
+
+  test 'redirects guests away from order details' do
+    get order_url(orders(:paid_order))
+
+    assert_redirected_to new_user_session_url
   end
 end
