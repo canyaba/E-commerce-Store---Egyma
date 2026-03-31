@@ -6,7 +6,7 @@
       <p class="text-uppercase small fw-semibold text-muted mb-2">Order #<%= @order.id %></p>
       <h1 class="display-6 fw-bold mb-3">Invoice and payment details</h1>
       <p class="lead mb-0 text-muted">
-        Purchased on <%= @order.created_at.strftime('%B %d, %Y at %I:%M %p') %> • Province: <%= @order.province_name %>
+        Purchased on <%= @order.created_at.strftime('%B %d, %Y at %I:%M %p') %> | Province: <%= @order.province_name %>
       </p>
     </div>
 
@@ -20,7 +20,7 @@
   </div>
 </section>
 
-<div class="row g-4 align-items-start">
+<div class="row g-4 align-items-start order-layout">
   <div class="col-lg-7">
     <section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
       <h2 class="h4 mb-3">Purchased items</h2>
@@ -48,7 +48,7 @@
     </section>
   </div>
 
-  <div class="col-lg-5">
+  <div class="col-lg-5 order-sidebar">
     <%= render 'shared/pricing_table',
                title: 'Historical totals',
                subtotal: @order.subtotal_amount,
