@@ -162,6 +162,17 @@ body.storefront-body {
   font-weight: 600;
 }
 
+.cart-actions__buttons {
+  width: 100%;
+}
+
+.checkout-sidebar,
+.order-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 footer {
   color: $storefront-muted;
 }
@@ -169,5 +180,37 @@ footer {
 @media (max-width: 767px) {
   .hero-section {
     padding: 1.5rem;
+  }
+
+  .cart-shell,
+  .checkout-layout > *,
+  .order-layout > * {
+    width: 100%;
+  }
+
+  .cart-table table,
+  .pricing-table table {
+    font-size: 0.95rem;
+  }
+
+  .cart-actions__buttons .btn,
+  .checkout-layout .btn {
+    width: 100%;
+  }
+
+  .cart-quantity-field {
+    max-width: none;
+  }
+
+  .payment-panel {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .checkout-sidebar .pricing-table,
+  .order-sidebar .pricing-table {
+    position: sticky;
+    top: 1.5rem;
   }
 }

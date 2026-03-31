@@ -6,7 +6,7 @@
   <p class="lead mb-0 text-muted">Taxes are calculated from the selected Canadian province and copied into the order snapshot at checkout.</p>
 </section>
 
-<div class="row g-4 align-items-start">
+<div class="row g-4 align-items-start checkout-layout">
   <div class="col-lg-7">
     <section class="rounded-4 border bg-white p-4 p-lg-5">
       <h2 class="h4 mb-3">Billing details</h2>
@@ -58,7 +58,7 @@
     </section>
   </div>
 
-  <div class="col-lg-5">
+  <div class="col-lg-5 checkout-sidebar">
     <section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
       <h2 class="h4 mb-3">Order summary</h2>
       <%= render 'shared/order_items_table', items: @cart.items, caption: 'Items currently included in checkout', link_products: true %>

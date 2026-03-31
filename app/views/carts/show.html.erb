@@ -13,8 +13,8 @@
     <%= link_to 'Browse products', root_path, class: 'btn btn-primary' %>
   </section>
 <% else %>
-  <section class="rounded-4 border bg-white p-4 p-lg-5">
-    <div class="table-responsive">
+  <section class="rounded-4 border bg-white p-4 p-lg-5 cart-shell">
+    <div class="table-responsive cart-table">
       <table class="table align-middle mb-4">
         <caption class="visually-hidden">Products currently stored in your cart</caption>
         <thead>
@@ -55,8 +55,8 @@
       </table>
     </div>
 
-    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 border-top pt-3">
-      <div class="d-flex flex-column flex-sm-row gap-3">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 border-top pt-3 cart-actions">
+      <div class="d-flex flex-column flex-sm-row gap-3 cart-actions__buttons">
         <%= link_to 'Continue browsing', root_path, class: 'btn btn-outline-secondary' %>
         <%= link_to 'Proceed to checkout', checkout_path, class: 'btn btn-primary' %>
       </div>
