@@ -1,0 +1,13 @@
+manitoba:
+  name: Manitoba
+  code: MB
+  gst_rate: 0.05
+  pst_rate: 0.07
+  hst_rate: 0.0
+
+ontario:
+  name: Ontario
+  code: ON
+  gst_rate: 0.0
+  pst_rate: 0.0
+  hst_rate: 0.13

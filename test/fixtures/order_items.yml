@@ -1,0 +1,31 @@
+new_order_item:
+  order: new_order
+  product: one
+  product_title: Beginner Strength Blueprint
+  quantity: 1
+  unit_price_amount: 79.00
+  line_total_amount: 79.00
+
+paid_order_item_one:
+  order: paid_order
+  product: one
+  product_title: Beginner Strength Blueprint
+  quantity: 1
+  unit_price_amount: 79.00
+  line_total_amount: 79.00
+
+paid_order_item_two:
+  order: paid_order
+  product: two
+  product_title: Recovery Flow Reset
+  quantity: 1
+  unit_price_amount: 19.00
+  line_total_amount: 19.00
+
+other_user_order_item:
+  order: other_user_order
+  product: eight
+  product_title: Upper Lower Growth System
+  quantity: 1
+  unit_price_amount: 69.00
+  line_total_amount: 69.00

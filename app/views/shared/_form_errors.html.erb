@@ -1,0 +1,10 @@
+<% if object.errors.any? %>
+  <section class="alert alert-danger" aria-labelledby="<%= dom_id(object, :errors) %>">
+    <h2 id="<%= dom_id(object, :errors) %>" class="h5 mb-3">Please correct the following issues:</h2>
+    <ul class="mb-0">
+      <% object.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </section>
+<% end %>
