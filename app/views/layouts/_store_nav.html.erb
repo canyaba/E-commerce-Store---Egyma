@@ -1,0 +1,37 @@
+<header class="border-bottom bg-white">
+  <nav aria-label="Main navigation">
+    <div class="container py-3 d-flex flex-column gap-3">
+      <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+      <%= link_to 'Egyma', root_path, class: 'navbar-brand fw-bold text-uppercase tracking-wide' %>
+
+        <div class="d-flex flex-column flex-xl-row align-items-xl-center gap-3">
+          <ul class="nav flex-wrap align-items-center gap-2 justify-content-start justify-content-lg-end">
+            <li class="nav-item">
+              <%= link_to 'Browse All', root_path, class: "nav-link px-3 #{current_page?(root_path) ? 'active' : ''}" %>
+            </li>
+            <% storefront_categories.each do |category| %>
+              <li class="nav-item">
+                <%= link_to category.name, category_path(category), class: "nav-link px-3 #{current_page?(category_path(category)) ? 'active' : ''}" %>
+              </li>
+            <% end %>
+          </ul>
+
+          <div class="d-flex flex-wrap align-items-center gap-2">
+            <%= link_to "Cart (#{current_cart.count})", cart_path, class: 'btn btn-outline-secondary' %>
+
+            <% if user_signed_in? %>
+              <%= link_to 'Orders', orders_path, class: 'btn btn-outline-secondary' %>
+              <span class="small text-muted">Signed in as <%= current_user.email %></span>
+              <%= button_to 'Log out', destroy_user_session_path, method: :delete, class: 'btn btn-outline-dark' %>
+            <% else %>
+              <%= link_to 'Log in', new_user_session_path, class: 'btn btn-outline-dark' %>
+              <%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-primary' %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+
+      <%= render 'shared/catalog_search' %>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,23 @@
+<% content_for :title, 'Search | Egyma' %>
+
+<section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+  <p class="text-uppercase small fw-semibold text-muted mb-2">Search</p>
+  <h1 class="display-6 fw-bold mb-3">Search digital fitness products</h1>
+  <p class="lead mb-0 text-muted">Keyword search is separate from category browsing so both rubric requirements stay distinct.</p>
+</section>
+
+<section aria-labelledby="search-results-heading">
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-4">
+    <div>
+      <p class="text-uppercase small fw-semibold text-muted mb-1">Results</p>
+      <h2 id="search-results-heading" class="h2 mb-0">Matching products</h2>
+    </div>
+    <p class="mb-0 text-muted"><%= pluralize(@products.total_count, 'product') %> found</p>
+  </div>
+
+  <%= render 'shared/product_grid', products: @products %>
+
+  <div class="mt-4 d-flex justify-content-center">
+    <%= paginate @products %>
+  </div>
+</section>

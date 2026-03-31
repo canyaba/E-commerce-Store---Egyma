@@ -1,0 +1,66 @@
+<% content_for :title, 'Your Cart | Egyma' %>
+
+<section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+  <p class="text-uppercase small fw-semibold text-muted mb-2">Shopping cart</p>
+  <h1 class="display-6 fw-bold mb-3">Your cart</h1>
+  <p class="lead mb-0 text-muted">Cart contents are stored in the session and can be updated without signing in.</p>
+</section>
+
+<% if @cart.empty? %>
+  <section class="rounded-4 border bg-white p-4">
+    <h2 class="h4">Your cart is empty</h2>
+    <p class="text-muted">Browse the catalog to add digital products before checkout is built next week.</p>
+    <%= link_to 'Browse products', root_path, class: 'btn btn-primary' %>
+  </section>
+<% else %>
+  <section class="rounded-4 border bg-white p-4 p-lg-5">
+    <div class="table-responsive">
+      <table class="table align-middle mb-4">
+        <caption class="visually-hidden">Products currently stored in your cart</caption>
+        <thead>
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
+            <th scope="col">Line total</th>
+            <th scope="col" class="text-end">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @cart.items.each do |item| %>
+            <tr>
+              <td>
+                <div class="fw-semibold"><%= link_to item.product.title, product_path(item.product), class: 'text-decoration-none' %></div>
+                <div class="small text-muted"><%= item.product.categories.alphabetical.map(&:name).join(', ') %></div>
+              </td>
+              <td>
+                <%= form_with url: cart_item_path(item.product), method: :patch, scope: nil, class: 'd-flex flex-column flex-sm-row gap-2 align-items-sm-end' do |form| %>
+                  <div>
+                    <%= form.label :quantity, "Quantity for #{item.product.title}", class: 'form-label' %>
+                    <%= form.number_field :quantity, value: item.quantity, min: 1, class: 'form-control cart-quantity-field' %>
+                  </div>
+                  <div>
+                    <%= form.submit 'Update quantity', class: 'btn btn-outline-secondary' %>
+                  </div>
+                <% end %>
+              </td>
+              <td><%= product_price(item.product) %></td>
+              <td><%= number_to_currency(item.total_price) %></td>
+              <td class="text-end">
+                <%= button_to 'Remove item', cart_item_path(item.product), method: :delete, class: 'btn btn-outline-danger' %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 border-top pt-3">
+      <div class="d-flex flex-column flex-sm-row gap-3">
+        <%= link_to 'Continue browsing', root_path, class: 'btn btn-outline-secondary' %>
+        <%= link_to 'Proceed to checkout', checkout_path, class: 'btn btn-primary' %>
+      </div>
+      <p class="h5 mb-0">Subtotal: <%= number_to_currency(@cart.subtotal) %></p>
+    </div>
+  </section>
+<% end %>

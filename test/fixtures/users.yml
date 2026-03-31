@@ -1,0 +1,21 @@
+one:
+  email: member@example.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'Password123!') %>
+  first_name: Jordan
+  last_name: Member
+  address_line_1: 123 Main Street
+  address_line_2:
+  city: Winnipeg
+  postal_code: R3C 0V1
+  province: manitoba
+
+two:
+  email: coach@example.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'Password123!') %>
+  first_name: Taylor
+  last_name: Coach
+  address_line_1: 45 King Street West
+  address_line_2: Suite 200
+  city: Toronto
+  postal_code: M5H 1J8
+  province: ontario
