@@ -1,0 +1,53 @@
+one:
+  title: Beginner Strength Blueprint
+  description: A structured beginner lifting program with clear progression.
+  price: 79.00
+  active: true
+
+two:
+  title: Recovery Flow Reset
+  description: A guided mobility routine for post-training recovery.
+  price: 19.00
+  active: true
+
+three:
+  title: Coach Weekly Template
+  description: A reusable weekly planning template for consistent training.
+  price: 39.00
+  active: true
+
+four:
+  title: Desk Worker Mobility Reset
+  description: Short daily mobility work designed for office-based schedules.
+  price: 24.00
+  active: true
+
+five:
+  title: Home Dumbbell Builder
+  description: A progressive home dumbbell program for limited-equipment training.
+  price: 49.00
+  active: true
+
+six:
+  title: Nutrition Template Pack
+  description: Macro-friendly meal and nutrition templates for busy customers.
+  price: 29.00
+  active: true
+
+seven:
+  title: Powerbuilding Phase One
+  description: A blended strength and hypertrophy plan for intermediate lifters.
+  price: 89.00
+  active: true
+
+eight:
+  title: Upper Lower Growth System
+  description: A four-day training split for balanced upper and lower body growth.
+  price: 69.00
+  active: true
+
+nine:
+  title: Archived Mobility Guide
+  description: An inactive product that should not appear in the storefront.
+  price: 15.00
+  active: false
