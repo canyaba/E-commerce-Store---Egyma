@@ -1,0 +1,22 @@
+<article class="col" data-testid="product-card">
+  <div class="card h-100 border-0 shadow-sm storefront-card">
+    <%= link_to product_path(product), class: 'text-decoration-none text-dark h-100 d-flex flex-column' do %>
+      <div class="storefront-card__image-wrap">
+        <%= product_image_or_placeholder(product, size: '640x420', css_class: 'card-img-top storefront-card__image') %>
+      </div>
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <% product.categories.alphabetical.each do |category| %>
+            <span class="badge text-bg-light border"><%= category.name %></span>
+          <% end %>
+        </div>
+        <h3 class="h5 card-title"><%= product.title %></h3>
+        <p class="card-text text-muted flex-grow-1"><%= truncate(product.description, length: 120) %></p>
+        <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+          <span class="fw-semibold"><%= product_price(product) %></span>
+          <span class="stretched-link small text-uppercase fw-semibold">View details</span>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</article>

@@ -1,0 +1,10 @@
+<% if products.any? %>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+    <%= render partial: 'shared/product_card', collection: products, as: :product %>
+  </div>
+<% else %>
+  <div class="rounded-4 border bg-white p-4">
+    <h2 class="h4">No products available yet</h2>
+    <p class="mb-0 text-muted">Check back soon for new digital fitness programs and guides.</p>
+  </div>
+<% end %>

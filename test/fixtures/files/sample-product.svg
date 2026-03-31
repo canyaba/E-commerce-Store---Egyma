@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title>Sample product image</title>
+  <rect width="120" height="120" rx="16" fill="#111827" />
+  <path d="M24 80 L46 42 L62 66 L76 52 L96 80 Z" fill="#22c55e" />
+  <circle cx="40" cy="34" r="8" fill="#f8fafc" />
+</svg>

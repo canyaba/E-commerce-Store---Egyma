@@ -1,0 +1,49 @@
+<% content_for :title, "#{@product.title} | Egyma" %>
+
+<article class="row g-4 align-items-start">
+  <div class="col-lg-6">
+    <div class="rounded-4 overflow-hidden bg-white shadow-sm">
+      <%= product_image_or_placeholder(@product, size: '900x620', css_class: 'img-fluid w-100 product-detail__image') %>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="bg-white rounded-4 shadow-sm p-4 p-lg-5">
+      <div class="d-flex flex-wrap gap-2 mb-3">
+        <% @product.categories.alphabetical.each do |category| %>
+          <%= link_to category.name, category_path(category), class: 'badge text-bg-light border text-decoration-none' %>
+        <% end %>
+      </div>
+
+      <h1 class="display-6 fw-bold mb-3"><%= @product.title %></h1>
+      <p class="h4 mb-4"><%= product_price(@product) %></p>
+      <p class="lead text-muted mb-4"><%= @product.description %></p>
+
+      <section aria-labelledby="add-to-cart-heading" class="rounded-4 border p-4 mb-4">
+        <h2 id="add-to-cart-heading" class="h5 mb-3">Add this product to your cart</h2>
+
+        <%= form_with url: cart_items_path, method: :post, scope: nil, class: 'row g-3 align-items-end' do |form| %>
+          <%= form.hidden_field :product_id, value: @product.id %>
+
+          <div class="col-sm-4">
+            <%= form.label :quantity, class: 'form-label fw-semibold' %>
+            <%= form.number_field :quantity, value: 1, min: 1, class: 'form-control' %>
+          </div>
+
+          <div class="col-sm-8 d-grid d-sm-flex">
+            <%= form.submit 'Add to cart', class: 'btn btn-primary' %>
+          </div>
+        <% end %>
+      </section>
+
+      <section aria-labelledby="product-foundation-heading" class="rounded-4 border p-4 product-detail__panel">
+        <h2 id="product-foundation-heading" class="h5 mb-3">What this product page proves</h2>
+        <ul class="mb-0 ps-3">
+          <li>Public product browsing is separate from admin management.</li>
+          <li>Category browsing links directly to grouped catalog pages.</li>
+          <li>The storefront is built from reusable partial-based components.</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</article>

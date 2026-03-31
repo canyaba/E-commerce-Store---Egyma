@@ -1,0 +1,1 @@
+sample product file for active storage smoke testing
