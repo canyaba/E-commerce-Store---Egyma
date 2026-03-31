@@ -1,0 +1,75 @@
+new_order:
+  user: one
+  province: manitoba
+  status: new
+  billing_first_name: Jordan
+  billing_last_name: Member
+  billing_email: member@example.com
+  address_line_1: 123 Main Street
+  address_line_2:
+  city: Winnipeg
+  postal_code: R3C 0V1
+  province_name: Manitoba
+  province_code: MB
+  subtotal_amount: 79.00
+  gst_rate: 0.05
+  pst_rate: 0.07
+  hst_rate: 0.0
+  gst_amount: 3.95
+  pst_amount: 5.53
+  hst_amount: 0.0
+  tax_total_amount: 9.48
+  total_amount: 88.48
+
+paid_order:
+  user: one
+  province: manitoba
+  status: paid
+  billing_first_name: Jordan
+  billing_last_name: Member
+  billing_email: member@example.com
+  address_line_1: 123 Main Street
+  address_line_2:
+  city: Winnipeg
+  postal_code: R3C 0V1
+  province_name: Manitoba
+  province_code: MB
+  subtotal_amount: 98.00
+  gst_rate: 0.05
+  pst_rate: 0.07
+  hst_rate: 0.0
+  gst_amount: 4.90
+  pst_amount: 6.86
+  hst_amount: 0.0
+  tax_total_amount: 11.76
+  total_amount: 109.76
+  payment_processor: stripe
+  payment_reference: pi_paid_123
+  paid_at: <%= 1.day.ago %>
+
+other_user_order:
+  user: two
+  province: ontario
+  status: shipped
+  billing_first_name: Taylor
+  billing_last_name: Coach
+  billing_email: coach@example.com
+  address_line_1: 45 King Street West
+  address_line_2: Suite 200
+  city: Toronto
+  postal_code: M5H 1J8
+  province_name: Ontario
+  province_code: ON
+  subtotal_amount: 69.00
+  gst_rate: 0.0
+  pst_rate: 0.0
+  hst_rate: 0.13
+  gst_amount: 0.0
+  pst_amount: 0.0
+  hst_amount: 8.97
+  tax_total_amount: 8.97
+  total_amount: 77.97
+  payment_processor: stripe
+  payment_reference: pi_ship_123
+  paid_at: <%= 2.days.ago %>
+  shipped_at: <%= 1.day.ago %>

@@ -1,0 +1,81 @@
+<% content_for :title, "Order ##{@order.id} | Egyma" %>
+
+<section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+  <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">
+    <div>
+      <p class="text-uppercase small fw-semibold text-muted mb-2">Order #<%= @order.id %></p>
+      <h1 class="display-6 fw-bold mb-3">Invoice and payment details</h1>
+      <p class="lead mb-0 text-muted">
+        Purchased on <%= @order.created_at.strftime('%B %d, %Y at %I:%M %p') %> • Province: <%= @order.province_name %>
+      </p>
+    </div>
+
+    <div class="d-flex flex-column gap-2 align-items-lg-end">
+      <span class="badge <%= order_status_badge_class(@order.status) %>"><%= @order.status.humanize %></span>
+      <span class="fw-semibold">Grand total: <%= number_to_currency(@order.total_amount) %></span>
+      <% if @order.payment_reference.present? %>
+        <span class="small text-muted">Payment reference: <%= @order.payment_reference %></span>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<div class="row g-4 align-items-start">
+  <div class="col-lg-7">
+    <section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+      <h2 class="h4 mb-3">Purchased items</h2>
+      <%= render 'shared/order_items_table', items: @order.order_items, caption: 'Products included in this order' %>
+    </section>
+
+    <section class="rounded-4 border bg-white p-4 p-lg-5">
+      <h2 class="h4 mb-3">Billing snapshot</h2>
+      <dl class="row mb-0">
+        <dt class="col-sm-4">Customer</dt>
+        <dd class="col-sm-8"><%= "#{@order.billing_first_name} #{@order.billing_last_name}" %></dd>
+
+        <dt class="col-sm-4">Email</dt>
+        <dd class="col-sm-8"><%= @order.billing_email %></dd>
+
+        <dt class="col-sm-4">Address</dt>
+        <dd class="col-sm-8">
+          <%= @order.address_line_1 %><br>
+          <% if @order.address_line_2.present? %>
+            <%= @order.address_line_2 %><br>
+          <% end %>
+          <%= @order.city %>, <%= @order.province_code %> <%= @order.postal_code.upcase %>
+        </dd>
+      </dl>
+    </section>
+  </div>
+
+  <div class="col-lg-5">
+    <%= render 'shared/pricing_table',
+               title: 'Historical totals',
+               subtotal: @order.subtotal_amount,
+               gst_rate: @order.gst_rate,
+               pst_rate: @order.pst_rate,
+               hst_rate: @order.hst_rate,
+               gst_amount: @order.gst_amount,
+               pst_amount: @order.pst_amount,
+               hst_amount: @order.hst_amount,
+               tax_total: @order.tax_total_amount,
+               total: @order.total_amount %>
+
+    <section class="rounded-4 border bg-white p-4 mt-4 payment-panel">
+      <h2 class="h5 mb-3">Payment status</h2>
+
+      <% if @order.payable? %>
+        <p class="text-muted">This order has been created but not yet paid. Use Stripe test mode to complete the sandbox payment.</p>
+        <% if ENV['STRIPE_SECRET_KEY'].present? %>
+          <%= button_to 'Pay with Stripe test mode', order_payment_path(@order), method: :post, class: 'btn btn-primary w-100' %>
+        <% else %>
+          <p class="small text-muted mb-0">Set <code>STRIPE_SECRET_KEY</code> in your environment to enable sandbox checkout.</p>
+        <% end %>
+      <% elsif @order.shipped? %>
+        <p class="mb-0 text-muted">This order was paid and later marked shipped by an admin on <%= @order.shipped_at.strftime('%B %d, %Y') %>.</p>
+      <% else %>
+        <p class="mb-0 text-muted">Payment was confirmed on <%= @order.paid_at.strftime('%B %d, %Y at %I:%M %p') %>. The order is ready for admin fulfillment.</p>
+      <% end %>
+    </section>
+  </div>
+</div>

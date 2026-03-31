@@ -1,0 +1,79 @@
+<% content_for :title, 'Checkout | Egyma' %>
+
+<section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+  <p class="text-uppercase small fw-semibold text-muted mb-2">Checkout</p>
+  <h1 class="display-6 fw-bold mb-3">Confirm your details and review your invoice</h1>
+  <p class="lead mb-0 text-muted">Taxes are calculated from the selected Canadian province and copied into the order snapshot at checkout.</p>
+</section>
+
+<div class="row g-4 align-items-start">
+  <div class="col-lg-7">
+    <section class="rounded-4 border bg-white p-4 p-lg-5">
+      <h2 class="h4 mb-3">Billing details</h2>
+      <p class="text-muted">Your account email for this order is <strong><%= current_user.email %></strong>.</p>
+
+      <%= render 'shared/form_errors', object: @user %>
+
+      <%= form_with model: @user, url: checkout_path, method: :post, class: 'row g-3', scope: :user do |form| %>
+        <div class="col-md-6">
+          <%= form.label :first_name, class: 'form-label fw-semibold' %>
+          <%= form.text_field :first_name, class: 'form-control', autocomplete: 'given-name' %>
+        </div>
+
+        <div class="col-md-6">
+          <%= form.label :last_name, class: 'form-label fw-semibold' %>
+          <%= form.text_field :last_name, class: 'form-control', autocomplete: 'family-name' %>
+        </div>
+
+        <div class="col-12">
+          <%= form.label :address_line_1, 'Address line 1', class: 'form-label fw-semibold' %>
+          <%= form.text_field :address_line_1, class: 'form-control', autocomplete: 'address-line1' %>
+        </div>
+
+        <div class="col-12">
+          <%= form.label :address_line_2, 'Address line 2', class: 'form-label fw-semibold' %>
+          <%= form.text_field :address_line_2, class: 'form-control', autocomplete: 'address-line2' %>
+        </div>
+
+        <div class="col-md-5">
+          <%= form.label :city, class: 'form-label fw-semibold' %>
+          <%= form.text_field :city, class: 'form-control', autocomplete: 'address-level2' %>
+        </div>
+
+        <div class="col-md-4">
+          <%= form.label :province_id, 'Province', class: 'form-label fw-semibold' %>
+          <%= form.collection_select :province_id, @provinces, :id, :name, { prompt: 'Select a province' }, { class: 'form-select', autocomplete: 'address-level1' } %>
+        </div>
+
+        <div class="col-md-3">
+          <%= form.label :postal_code, class: 'form-label fw-semibold' %>
+          <%= form.text_field :postal_code, class: 'form-control text-uppercase', autocomplete: 'postal-code' %>
+        </div>
+
+        <div class="col-12 d-flex flex-column flex-sm-row gap-3 pt-2">
+          <%= form.submit 'Create order and continue to payment', class: 'btn btn-primary' %>
+          <%= link_to 'Return to cart', cart_path, class: 'btn btn-outline-secondary' %>
+        </div>
+      <% end %>
+    </section>
+  </div>
+
+  <div class="col-lg-5">
+    <section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+      <h2 class="h4 mb-3">Order summary</h2>
+      <%= render 'shared/order_items_table', items: @cart.items, caption: 'Items currently included in checkout', link_products: true %>
+    </section>
+
+    <%= render 'shared/pricing_table',
+               title: 'Invoice preview',
+               subtotal: @pricing.subtotal,
+               gst_rate: @pricing.gst_rate,
+               pst_rate: @pricing.pst_rate,
+               hst_rate: @pricing.hst_rate,
+               gst_amount: @pricing.gst_amount,
+               pst_amount: @pricing.pst_amount,
+               hst_amount: @pricing.hst_amount,
+               tax_total: @pricing.tax_total,
+               total: @pricing.total %>
+  </div>
+</div>

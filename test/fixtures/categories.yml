@@ -1,0 +1,9 @@
+one:
+  name: Strength Training
+  slug: strength-training
+  description: Structured strength programming for gym users.
+
+two:
+  name: Mobility Recovery
+  slug: mobility-recovery
+  description: Mobility and recovery resources for consistency.

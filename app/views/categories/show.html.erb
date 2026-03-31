@@ -1,0 +1,23 @@
+<% content_for :title, "#{@category.name} | Egyma" %>
+
+<section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+  <p class="text-uppercase small fw-semibold text-muted mb-2">Category</p>
+  <h1 class="display-6 fw-bold mb-3"><%= @category.name %></h1>
+  <p class="lead mb-0 text-muted"><%= @category.description.presence || 'Browse digital fitness products in this category.' %></p>
+</section>
+
+<section aria-labelledby="category-products-heading">
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-4">
+    <div>
+      <p class="text-uppercase small fw-semibold text-muted mb-1">Products</p>
+      <h2 id="category-products-heading" class="h2 mb-0">Browse <%= @category.name.downcase %> resources</h2>
+    </div>
+    <p class="mb-0 text-muted"><%= pluralize(@products.total_count, 'product') %> in this category</p>
+  </div>
+
+  <%= render 'shared/product_grid', products: @products %>
+
+  <div class="mt-4 d-flex justify-content-center">
+    <%= paginate @products %>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+<div class="table-responsive">
+  <table class="table align-middle mb-0">
+    <caption class="visually-hidden"><%= caption %></caption>
+    <thead>
+      <tr>
+        <th scope="col">Product</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Unit price</th>
+        <th scope="col" class="text-end">Line total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% items.each do |item| %>
+        <% title = item.respond_to?(:product_title) ? item.product_title : item.product.title %>
+        <% unit_price = item.respond_to?(:unit_price_amount) ? item.unit_price_amount : item.product.price %>
+        <% line_total = item.respond_to?(:line_total_amount) ? item.line_total_amount : item.total_price %>
+        <tr>
+          <td>
+            <% if local_assigns[:link_products] && item.respond_to?(:product) && item.product.present? %>
+              <%= link_to title, product_path(item.product), class: 'text-decoration-none fw-semibold' %>
+            <% else %>
+              <span class="fw-semibold"><%= title %></span>
+            <% end %>
+          </td>
+          <td><%= item.quantity %></td>
+          <td><%= number_to_currency(unit_price) %></td>
+          <td class="text-end"><%= number_to_currency(line_total) %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

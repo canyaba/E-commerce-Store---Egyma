@@ -1,0 +1,34 @@
+<section class="rounded-4 border bg-white p-4 pricing-table">
+  <h2 class="h5 mb-3"><%= title %></h2>
+  <div class="table-responsive">
+    <table class="table mb-0">
+      <caption class="visually-hidden"><%= title %></caption>
+      <tbody>
+        <tr>
+          <th scope="row">Subtotal</th>
+          <td class="text-end"><%= number_to_currency(subtotal) %></td>
+        </tr>
+        <tr>
+          <th scope="row">GST (<%= formatted_tax_rate(gst_rate) %>)</th>
+          <td class="text-end"><%= number_to_currency(gst_amount) %></td>
+        </tr>
+        <tr>
+          <th scope="row">PST (<%= formatted_tax_rate(pst_rate) %>)</th>
+          <td class="text-end"><%= number_to_currency(pst_amount) %></td>
+        </tr>
+        <tr>
+          <th scope="row">HST (<%= formatted_tax_rate(hst_rate) %>)</th>
+          <td class="text-end"><%= number_to_currency(hst_amount) %></td>
+        </tr>
+        <tr>
+          <th scope="row">Tax total</th>
+          <td class="text-end"><%= number_to_currency(tax_total) %></td>
+        </tr>
+        <tr class="fw-bold">
+          <th scope="row">Grand total</th>
+          <td class="text-end"><%= number_to_currency(total) %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

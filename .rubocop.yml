@@ -1,0 +1,40 @@
+plugins:
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'config/initializers/devise.rb'
+    - 'db/migrate/*create_active_storage_tables.active_storage.rb'
+    - 'db/schema.rb'
+
+Layout/EndOfLine:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'app/admin/**/*.rb'
+    - 'config/environments/*.rb'
+    - 'db/migrate/*.rb'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/*.rb'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*.rb'
+
+Naming/VariableNumber:
+  AllowedPatterns:
+    - '^address_line_[12]$'
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Rails:
+  Enabled: true

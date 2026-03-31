@@ -1,0 +1,42 @@
+<% content_for :title, 'Egyma Catalog' %>
+
+<section class="hero-section rounded-4 mb-5">
+  <div class="row g-4 align-items-center">
+    <div class="col-lg-7">
+      <p class="text-uppercase fw-semibold mb-2 hero-section__eyebrow">Digital fitness marketplace</p>
+      <h1 class="display-5 fw-bold mb-3">Structured training programs, recovery systems, and nutrition tools in one place.</h1>
+      <p class="lead mb-4">Browse practical digital products built for gym users, busy professionals, and customers who want clear fitness structure without the noise.</p>
+      <div class="d-flex flex-wrap gap-2">
+        <% @featured_categories.each do |category| %>
+          <%= link_to category.name, category_path(category), class: 'btn btn-light btn-sm border' %>
+        <% end %>
+      </div>
+    </div>
+    <div class="col-lg-5">
+      <div class="hero-section__panel rounded-4 p-4">
+        <h2 class="h5 mb-3">Why customers use Egyma</h2>
+        <ul class="mb-0 ps-3">
+          <li>Digital programs with clear structure</li>
+          <li>Category-based browsing for fast discovery</li>
+          <li>Practical resources for training and recovery</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="catalog-heading">
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-4">
+    <div>
+      <p class="text-uppercase small fw-semibold text-muted mb-1">Catalog</p>
+      <h2 id="catalog-heading" class="h2 mb-0">Browse all digital products</h2>
+    </div>
+    <p class="mb-0 text-muted"><%= pluralize(@products.total_count, 'product') %> available</p>
+  </div>
+
+  <%= render 'shared/product_grid', products: @products %>
+
+  <div class="mt-4 d-flex justify-content-center">
+    <%= paginate @products %>
+  </div>
+</section>
