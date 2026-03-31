@@ -31,6 +31,17 @@ class PaymentsControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to 'https://checkout.stripe.test/session_123'
   end
 
+  test 'shows an alert when Stripe test mode is not configured' do
+    sign_in users(:one)
+    ENV.delete('STRIPE_SECRET_KEY')
+
+    post order_payment_url(orders(:new_order))
+
+    assert_redirected_to order_url(orders(:new_order))
+    follow_redirect!
+    assert_match(/Stripe test mode is not configured\./i, response.body)
+  end
+
   test 'marks an order paid after Stripe success callback' do
     sign_in users(:one)
 
@@ -87,5 +98,14 @@ class PaymentsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to admin_order_url(orders(:paid_order))
     assert_equal 'shipped', orders(:paid_order).reload.status
+  end
+
+  test 'admin cannot mark a new order as shipped' do
+    sign_in admin_users(:admin)
+
+    put mark_shipped_admin_order_url(orders(:new_order))
+
+    assert_redirected_to admin_order_url(orders(:new_order))
+    assert_equal 'new', orders(:new_order).reload.status
   end
 end
