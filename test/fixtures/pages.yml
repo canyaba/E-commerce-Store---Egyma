@@ -1,0 +1,24 @@
+about:
+  title: About Egyma
+  slug: about
+  body: |
+    Egyma is a Winnipeg-based digital fitness marketplace that helps customers buy structured training, mobility, recovery, and nutrition resources online.
+
+    The business has operated for four years and currently supports fitness professionals who sell practical digital programs to customers looking for convenient, well-organized guidance.
+  published: true
+
+contact:
+  title: Contact Egyma
+  slug: contact
+  body: |
+    Email: support@egyma.local
+    Location: Winnipeg, Manitoba
+
+    Use this page to share business contact details, support expectations, and general inquiries for customers who purchase digital fitness products.
+  published: true
+
+draft:
+  title: Hidden Draft
+  slug: hidden-draft
+  body: This draft should not be visible on the public site.
+  published: false
