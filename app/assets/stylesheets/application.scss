@@ -96,6 +96,15 @@ body.storefront-body {
   background: #f9f7f2;
 }
 
+.page-content__body {
+  color: $storefront-ink;
+  line-height: 1.8;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .pagination {
   gap: 0.5rem;
 }

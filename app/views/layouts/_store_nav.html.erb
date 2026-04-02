@@ -9,6 +9,12 @@
             <li class="nav-item">
               <%= link_to 'Browse All', root_path, class: "nav-link px-3 #{current_page?(root_path) ? 'active' : ''}" %>
             </li>
+            <li class="nav-item">
+              <%= link_to 'About', about_path, class: "nav-link px-3 #{current_page?(about_path) ? 'active' : ''}" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to 'Contact', contact_path, class: "nav-link px-3 #{current_page?(contact_path) ? 'active' : ''}" %>
+            </li>
             <% storefront_categories.each do |category| %>
               <li class="nav-item">
                 <%= link_to category.name, category_path(category), class: "nav-link px-3 #{current_page?(category_path(category)) ? 'active' : ''}" %>

@@ -8,6 +8,42 @@ AdminUser.find_or_create_by!(email: admin_email) do |admin|
   admin.password_confirmation = admin_password
 end
 
+page_definitions = [
+  {
+    title: 'About Egyma',
+    slug: 'about',
+    published: true,
+    body: <<~BODY
+      Egyma is a digital fitness marketplace based in Winnipeg, Manitoba.
+
+      For the past four years, the business has helped fitness professionals sell structured digital products such as workout programs, nutrition templates, mobility systems, and personalized coaching resources.
+
+      The goal of the platform is simple: make it easier for customers to discover practical, well-organized fitness resources without relying on direct messages, scattered links, or third-party delivery platforms.
+    BODY
+  },
+  {
+    title: 'Contact Egyma',
+    slug: 'contact',
+    published: true,
+    body: <<~BODY
+      Egyma supports customers and coaches from Winnipeg, Manitoba.
+
+      General support: support@egyma.local
+      Creator partnerships: creators@egyma.local
+
+      Contact the business for product questions, account support, or digital marketplace inquiries related to training, mobility, recovery, and nutrition resources.
+    BODY
+  }
+]
+
+page_definitions.each do |definition|
+  page = Page.find_or_initialize_by(slug: definition[:slug])
+  page.title = definition[:title]
+  page.body = definition[:body]
+  page.published = definition[:published]
+  page.save!
+end
+
 province_definitions = [
   ['Alberta', 'AB', 0.05, 0.0, 0.0],
   ['British Columbia', 'BC', 0.05, 0.07, 0.0],

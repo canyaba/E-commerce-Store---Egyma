@@ -5,8 +5,13 @@
       <p class="mb-0 text-muted">Digital fitness resources for structured training, recovery, and nutrition.</p>
     </div>
     <div class="text-md-end">
+      <p class="mb-1 fw-semibold">Information</p>
+      <p class="mb-2">
+        <%= link_to 'About', about_path, class: 'text-decoration-none me-3' %>
+        <%= link_to 'Contact', contact_path, class: 'text-decoration-none' %>
+      </p>
       <p class="mb-1 fw-semibold">Browse by category</p>
-      <p class="mb-0 text-muted"><%= storefront_categories.map(&:name).join(' • ') %></p>
+      <p class="mb-0 text-muted"><%= storefront_categories.map(&:name).join(' | ') %></p>
     </div>
   </div>
 </footer>
