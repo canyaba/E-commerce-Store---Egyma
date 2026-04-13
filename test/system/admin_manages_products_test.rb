@@ -20,7 +20,7 @@ class AdminManagesProductsTest < ApplicationSystemTestCase
     fill_in 'Description', with: 'A structured starter product for first-time Egyma customers.'
     fill_in 'Price', with: '49.00'
     check 'Strength Training'
-    attach_file 'Image', Rails.root.join('test/fixtures/files/sample-product.svg')
+    attach_file 'Image', Rails.root.join('test/fixtures/files/sample-product.png')
     click_button 'Create Product'
 
     assert_text 'Product saved successfully.'
