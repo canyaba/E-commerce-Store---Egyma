@@ -58,7 +58,7 @@ class PaymentsControllerTest < ActionDispatch::IntegrationTest
       fake_session
     end
 
-    Payments::StripeCheckoutSessionVerifier.stub(:new, ->(*) { fake_verifier }) do
+    Payments::StripeCheckoutSessionVerifier.stub(:new, -> { fake_verifier }) do
       get payment_success_url(order_id: orders(:new_order).id, session_id: 'cs_test_123')
     end
 
@@ -83,7 +83,7 @@ class PaymentsControllerTest < ActionDispatch::IntegrationTest
       fake_session
     end
 
-    Payments::StripeCheckoutSessionVerifier.stub(:new, ->(*) { fake_verifier }) do
+    Payments::StripeCheckoutSessionVerifier.stub(:new, -> { fake_verifier }) do
       get payment_success_url(order_id: orders(:new_order).id, session_id: 'cs_test_456')
     end
 

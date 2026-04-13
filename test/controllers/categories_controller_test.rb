@@ -12,7 +12,7 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'article[data-testid="product-card"]', /#{Regexp.escape(products(:one).title)}/
     assert_select 'article[data-testid="product-card"]', text: products(:five).title, count: 0
-    assert_select 'a.btn.btn-dark', text: 'Recently updated'
+    assert_select 'a.btn.btn-dark', text: 'Recently updated (last 3 days)'
   end
 
   test 'shows products for a category' do

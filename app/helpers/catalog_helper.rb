@@ -9,8 +9,8 @@ module CatalogHelper
 
   CATALOG_FILTER_OPTIONS = [
     ['All products', nil],
-    ['New this week', 'new'],
-    ['Recently updated', 'recently_updated']
+    ['New (last 3 days)', 'new'],
+    ['Recently updated (last 3 days)', 'recently_updated']
   ].freeze
 
   def product_price(product)

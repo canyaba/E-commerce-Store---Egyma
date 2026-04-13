@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 class Product < ApplicationRecord
-  NEW_ARRIVAL_WINDOW = 14.days
-  RECENTLY_UPDATED_WINDOW = 14.days
+  NEW_ARRIVAL_WINDOW = 3.days
+  RECENTLY_UPDATED_WINDOW = 3.days
 
   has_one_attached :image
 

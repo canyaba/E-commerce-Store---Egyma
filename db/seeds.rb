@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative '../lib/darebee_scraped_seed_data'
+require_relative '../lib/wger_seed_data'
 
 # rubocop:disable Metrics/MethodLength
 def featured_product_definitions
@@ -84,14 +85,14 @@ def seeded_product_timestamps(index)
 end
 
 def recent_new_product_timestamps(index)
-  created_at = Time.zone.now.advance(days: -4, hours: -index)
+  created_at = Time.zone.now.advance(days: -2, hours: -(index % 24))
   [created_at, created_at + 2.hours]
 end
 
 def recently_updated_product_timestamps(index)
   [
     Time.zone.now.advance(days: -45, hours: -index),
-    Time.zone.now.advance(days: -3, hours: -index)
+    Time.zone.now.advance(days: -2, hours: -(index % 24))
   ]
 end
 
@@ -207,7 +208,8 @@ categories = category_definitions.each_with_object({}) do |definition, memo|
 end
 
 scraped_product_definitions = DarebeeScrapedSeedData.seed_product_definitions
-all_product_definitions = featured_product_definitions + scraped_product_definitions
+wger_product_definitions = WgerSeedData.seed_product_definitions
+all_product_definitions = featured_product_definitions + scraped_product_definitions + wger_product_definitions
 
 all_product_definitions.each_with_index do |definition, index|
   product = Product.find_or_initialize_by(title: definition[:title])
