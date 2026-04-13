@@ -35,7 +35,11 @@ ActiveAdmin.register Province do
     helper_method :tax_rate_label
 
     def tax_rate_label(rate)
-      number_to_percentage(rate * 100, precision: 2, strip_insignificant_zeros: true)
+      helpers.number_to_percentage(
+        rate * 100,
+        precision: 2,
+        strip_insignificant_zeros: true
+      )
     end
   end
 end

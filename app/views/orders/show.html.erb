@@ -65,11 +65,18 @@
       <h2 class="h5 mb-3">Payment status</h2>
 
       <% if @order.payable? %>
-        <p class="text-muted">This order has been created but not yet paid. Use Stripe test mode to complete the sandbox payment.</p>
+        <p class="text-muted">
+          This order has been saved successfully, but payment has not been completed yet.
+          The order will stay in the <strong>new</strong> state until a Stripe test payment is submitted.
+        </p>
         <% if ENV['STRIPE_SECRET_KEY'].present? %>
           <%= button_to 'Pay with Stripe test mode', order_payment_path(@order), method: :post, class: 'btn btn-primary w-100' %>
         <% else %>
-          <p class="small text-muted mb-0">Set <code>STRIPE_SECRET_KEY</code> in your environment to enable sandbox checkout.</p>
+          <p class="small text-muted mb-0">
+            Stripe sandbox checkout is currently unavailable because this environment is missing
+            <code>STRIPE_SECRET_KEY</code>. Add your Stripe test secret key, then reload this page
+            to enable the payment button.
+          </p>
         <% end %>
       <% elsif @order.shipped? %>
         <p class="mb-0 text-muted">This order was paid and later marked shipped by an admin on <%= @order.shipped_at.strftime('%B %d, %Y') %>.</p>
