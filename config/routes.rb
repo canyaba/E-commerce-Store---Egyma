@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#show', defaults: { slug: 'contact' }, as: :contact
   get 'pages/:slug', to: 'pages#show', as: :page
   get 'search', to: 'search#index', as: :search
+  resource :account, only: %i[show edit update], controller: 'account_profiles'
   resource :cart, only: :show
   resource :checkout, only: %i[show create]
   resources :cart_items, only: %i[create update destroy], param: :product_id

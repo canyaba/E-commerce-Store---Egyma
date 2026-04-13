@@ -1,0 +1,43 @@
+<%= render 'shared/form_errors', object: user %>
+
+<%= form_with model: user, url: account_path, method: :patch, class: 'row g-3' do |form| %>
+  <div class="col-md-6">
+    <%= form.label :first_name, class: 'form-label fw-semibold' %>
+    <%= form.text_field :first_name, class: 'form-control', autocomplete: 'given-name' %>
+  </div>
+
+  <div class="col-md-6">
+    <%= form.label :last_name, class: 'form-label fw-semibold' %>
+    <%= form.text_field :last_name, class: 'form-control', autocomplete: 'family-name' %>
+  </div>
+
+  <div class="col-12">
+    <%= form.label :address_line_1, 'Address line 1', class: 'form-label fw-semibold' %>
+    <%= form.text_field :address_line_1, class: 'form-control', autocomplete: 'address-line1' %>
+  </div>
+
+  <div class="col-12">
+    <%= form.label :address_line_2, 'Address line 2', class: 'form-label fw-semibold' %>
+    <%= form.text_field :address_line_2, class: 'form-control', autocomplete: 'address-line2' %>
+  </div>
+
+  <div class="col-md-5">
+    <%= form.label :city, class: 'form-label fw-semibold' %>
+    <%= form.text_field :city, class: 'form-control', autocomplete: 'address-level2' %>
+  </div>
+
+  <div class="col-md-4">
+    <%= form.label :province_id, 'Province', class: 'form-label fw-semibold' %>
+    <%= form.collection_select :province_id, provinces, :id, :name, { prompt: 'Select a province' }, { class: 'form-select', autocomplete: 'address-level1' } %>
+  </div>
+
+  <div class="col-md-3">
+    <%= form.label :postal_code, class: 'form-label fw-semibold' %>
+    <%= form.text_field :postal_code, class: 'form-control text-uppercase', autocomplete: 'postal-code' %>
+  </div>
+
+  <div class="col-12 d-flex flex-column flex-sm-row gap-3 pt-2">
+    <%= form.submit 'Save account details', class: 'btn btn-primary' %>
+    <%= link_to 'Cancel', account_path, class: 'btn btn-outline-secondary' %>
+  </div>
+<% end %>

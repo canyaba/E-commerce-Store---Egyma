@@ -26,6 +26,7 @@
             <%= link_to "Cart (#{current_cart.count})", cart_path, class: 'btn btn-outline-secondary' %>
 
             <% if user_signed_in? %>
+              <%= link_to 'Account', account_path, class: 'btn btn-outline-secondary' %>
               <%= link_to 'Orders', orders_path, class: 'btn btn-outline-secondary' %>
               <span class="small text-muted">Signed in as <%= current_user.email %></span>
               <%= button_to 'Log out', destroy_user_session_path, method: :delete, class: 'btn btn-outline-dark' %>

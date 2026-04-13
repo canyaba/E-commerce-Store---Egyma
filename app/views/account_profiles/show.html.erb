@@ -1,0 +1,41 @@
+<% content_for :title, 'Your Account | Egyma' %>
+
+<section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
+  <p class="text-uppercase small fw-semibold text-muted mb-2">Account</p>
+  <h1 class="display-6 fw-bold mb-3">Saved billing details</h1>
+  <p class="lead mb-0 text-muted">Manage your contact and address information so checkout can prefill your billing details and province-based taxes.</p>
+</section>
+
+<section class="rounded-4 border bg-white p-4 p-lg-5">
+  <div class="d-flex flex-column flex-lg-row justify-content-between gap-3 mb-4">
+    <div>
+      <h2 class="h4 mb-2">Profile details</h2>
+      <p class="text-muted mb-0">These details are reused at checkout and tied to your customer account.</p>
+    </div>
+    <div>
+      <%= link_to 'Edit account details', edit_account_path, class: 'btn btn-primary' %>
+    </div>
+  </div>
+
+  <dl class="row mb-0">
+    <dt class="col-sm-3">Name</dt>
+    <dd class="col-sm-9"><%= @user.full_name.presence || 'Not provided yet' %></dd>
+
+    <dt class="col-sm-3">Email</dt>
+    <dd class="col-sm-9"><%= @user.email %></dd>
+
+    <dt class="col-sm-3">Address</dt>
+    <dd class="col-sm-9">
+      <% if @user.address_line_1.present? %>
+        <%= @user.address_line_1 %><br>
+        <% if @user.address_line_2.present? %>
+          <%= @user.address_line_2 %><br>
+        <% end %>
+        <%= [@user.city, @user.province&.name].compact.join(', ') %><br>
+        <%= @user.postal_code %>
+      <% else %>
+        Add your billing address to speed up checkout.
+      <% end %>
+    </dd>
+  </dl>
+</section>
