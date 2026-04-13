@@ -10,6 +10,7 @@ class Category < ApplicationRecord
 
   validates :name, presence: true, uniqueness: true
   validates :slug, presence: true, uniqueness: true
+  validates :description, presence: true
 
   def self.ransackable_attributes(_auth_object = nil)
     %w[created_at description id name slug updated_at]

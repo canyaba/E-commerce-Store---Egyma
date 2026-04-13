@@ -1,4 +1,5 @@
 <% content_for :title, "Order ##{@order.id} | Egyma" %>
+<% set_breadcrumbs(['Browse All', root_path], ['Orders', orders_path], ["Order ##{@order.id}", nil]) %>
 
 <section class="rounded-4 border bg-white p-4 p-lg-5 mb-4">
   <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">

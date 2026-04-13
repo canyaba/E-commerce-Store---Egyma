@@ -6,6 +6,8 @@ class AdminUser < ApplicationRecord
   devise :database_authenticatable,
          :recoverable, :rememberable, :validatable
 
+  validates :email, presence: true, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP }
+
   def self.ransackable_attributes(_auth_object = nil)
     %w[created_at email id remember_created_at reset_password_sent_at updated_at]
   end

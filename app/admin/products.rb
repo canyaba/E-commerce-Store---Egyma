@@ -25,7 +25,7 @@ ActiveAdmin.register Product do
     column :active
     column :image do |product|
       if product.image.attached?
-        helpers.image_tag(helpers.url_for(product.image), alt: product.title, size: '80x80')
+        helpers.product_image_or_placeholder(product, variant: :admin_thumb, css_class: 'rounded', size: [80, 80])
       else
         status_tag('missing', class: 'warning')
       end
@@ -43,7 +43,7 @@ ActiveAdmin.register Product do
       row('Categories') { |product| product.categories.order(:name).pluck(:name).join(', ') }
       row :image do |product|
         if product.image.attached?
-          helpers.image_tag(helpers.url_for(product.image), alt: product.title, size: '180x180')
+          helpers.product_image_or_placeholder(product, variant: :admin_thumb, css_class: 'rounded', size: [180, 180])
         else
           'No image uploaded'
         end
@@ -65,7 +65,12 @@ ActiveAdmin.register Product do
       f.input :image,
               as: :file,
               hint: if f.object.image.attached?
-                      helpers.image_tag(helpers.url_for(f.object.image), alt: f.object.title, size: '120x120')
+                      helpers.product_image_or_placeholder(
+                        f.object,
+                        variant: :admin_thumb,
+                        css_class: 'rounded',
+                        size: [120, 120]
+                      )
                     else
                       content_tag(:span, 'No image uploaded')
                     end

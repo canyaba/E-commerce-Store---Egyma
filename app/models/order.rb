@@ -15,6 +15,7 @@ class Order < ApplicationRecord
   validates :status, presence: true, inclusion: { in: STATUSES }
   validates :billing_first_name, :billing_last_name, :billing_email, :address_line_1, :city, :postal_code,
             :province_name, :province_code, presence: true
+  validates :billing_email, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates :subtotal_amount, :gst_amount, :pst_amount, :hst_amount, :tax_total_amount, :total_amount,
             numericality: { greater_than_or_equal_to: 0 }
   validates :gst_rate, :pst_rate, :hst_rate, numericality: { greater_than_or_equal_to: 0, less_than_or_equal_to: 1 }

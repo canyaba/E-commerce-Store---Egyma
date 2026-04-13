@@ -1,9 +1,17 @@
 <% content_for :title, "#{@product.title} | Egyma" %>
+<% primary_category = @product.categories.alphabetical.first %>
+<% set_breadcrumbs(['Browse All', root_path],
+                   [primary_category&.name || 'Products', primary_category ? category_path(primary_category) : nil],
+                   [@product.title, nil]) %>
 
 <article class="row g-4 align-items-start">
   <div class="col-lg-6">
     <div class="rounded-4 overflow-hidden bg-white shadow-sm">
-      <%= product_image_or_placeholder(@product, size: '900x620', css_class: 'img-fluid w-100 product-detail__image') %>
+      <%= product_image_or_placeholder(@product,
+                                       variant: :detail,
+                                       css_class: 'img-fluid w-100 product-detail__image',
+                                       size: [960, 720],
+                                       loading: 'eager') %>
     </div>
   </div>
 

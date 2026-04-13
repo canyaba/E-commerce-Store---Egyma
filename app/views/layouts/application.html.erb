@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <title><%= content_for(:title) || "Egyma" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
@@ -19,6 +20,7 @@
   <body class="storefront-body">
     <%= render 'layouts/store_nav' %>
     <main class="container py-4 py-lg-5">
+      <%= yield :breadcrumbs %>
       <%= render 'shared/flash_messages' %>
       <%= yield %>
     </main>

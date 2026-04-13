@@ -3,6 +3,15 @@ $storefront-muted: #5b6b73;
 $storefront-sand: #f4efe8;
 $storefront-accent: #e46d47;
 $storefront-border: #d8ddd9;
+$storefront-shadow: rgba(22, 48, 61, 0.08);
+$space-unit: 0.5rem;
+
+%panel-shell {
+  background: #fff;
+  border: 1px solid $storefront-border;
+  border-radius: $space-unit * 2;
+  box-shadow: 0 1rem 2rem $storefront-shadow;
+}
 
 body.storefront-body {
   background:
@@ -16,21 +25,21 @@ body.storefront-body {
   letter-spacing: 0.08em;
 }
 
-.navbar-brand {
+.navbar-brand,
+.nav-link {
   color: $storefront-ink;
 }
 
 .nav-link {
   border-radius: 999px;
-  color: $storefront-ink;
   font-weight: 600;
-}
 
-.nav-link:hover,
-.nav-link:focus-visible,
-.nav-link.active {
-  background-color: rgba(22, 48, 61, 0.08);
-  color: $storefront-ink;
+  &:hover,
+  &:focus-visible,
+  &.active {
+    background-color: rgba(22, 48, 61, 0.08);
+    color: $storefront-ink;
+  }
 }
 
 .btn-primary {
@@ -60,11 +69,13 @@ body.storefront-body {
 }
 
 .storefront-card {
+  @extend %panel-shell;
   overflow: hidden;
 }
 
 .storefront-card__image-wrap {
   background: linear-gradient(135deg, #d6e7e5, #f3d6c8);
+  border-bottom: 1px solid $storefront-border;
 }
 
 .storefront-card__image,
@@ -77,23 +88,41 @@ body.storefront-body {
   align-items: center;
   color: $storefront-muted;
   display: flex;
+  font-size: 0.95rem;
   font-weight: 600;
   justify-content: center;
-  min-height: 16rem;
-  padding: 1rem;
+  min-height: $space-unit * 32;
+  padding: $space-unit * 2;
   text-align: center;
 }
 
 .storefront-card__image.product-image-placeholder {
-  min-height: 16rem;
+  min-height: $space-unit * 32;
 }
 
 .product-detail__image.product-image-placeholder {
-  min-height: 24rem;
+  min-height: $space-unit * 48;
 }
 
 .product-detail__panel {
   background: #f9f7f2;
+}
+
+.breadcrumb-shell {
+  @extend %panel-shell;
+}
+
+.breadcrumb {
+  margin: 0;
+
+  .breadcrumb-item {
+    font-size: 0.95rem;
+
+    a {
+      color: $storefront-ink;
+      text-decoration: none;
+    }
+  }
 }
 
 .page-content__body {
@@ -151,7 +180,13 @@ body.storefront-body {
 
 .order-card,
 .pricing-table,
-.payment-panel {
+.payment-panel,
+.checkout-layout section,
+.order-layout section,
+.cart-shell,
+.auth-card,
+.page-content {
+  @extend %panel-shell;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(249, 247, 242, 0.95) 100%);
 }
@@ -203,12 +238,23 @@ footer {
   }
 
   .cart-actions__buttons .btn,
-  .checkout-layout .btn {
+  .checkout-layout .btn,
+  .payment-panel .btn,
+  .auth-card .btn {
     width: 100%;
   }
 
   .cart-quantity-field {
     max-width: none;
+  }
+
+  .breadcrumb {
+    font-size: 0.9rem;
+  }
+
+  .page-content__body,
+  .lead {
+    font-size: 1rem;
   }
 
   .payment-panel {
