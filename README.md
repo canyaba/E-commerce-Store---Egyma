@@ -230,8 +230,24 @@ The seed file creates:
 - 1 admin user
 - all Canadian provinces and territories with tax rates
 - 4 catalog categories
-- 100+ deterministic digital fitness products with realistic titles and descriptions
+- 100+ digital fitness products seeded from a committed DAREBEE metadata snapshot plus local featured products
 - default published About and Contact pages
+
+### Scraped Seed Snapshot
+
+Requirement `1.7` is implemented with a committed DAREBEE snapshot rather than live scraping during `db:seed`.
+
+- Source catalog: `https://www.darebee.com/programs.html` and paginated workout pages under `https://www.darebee.com/workouts.html`
+- Captured fields: source title, source URL, source type, category mapping, and generated Egyma-friendly pricing and descriptions
+- Normal seeding stays offline and deterministic because it reads from `db/data/darebee_products.json`
+
+To refresh the committed snapshot intentionally:
+
+```bash
+bundle exec rake data:scrape_darebee[120]
+```
+
+The scraper uses public DAREBEE metadata only. It does not copy long-form page content into the application.
 
 ## Payment Notes
 
