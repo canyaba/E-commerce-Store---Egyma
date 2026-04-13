@@ -9,6 +9,7 @@ class CategoryTest < ActiveSupport::TestCase
     assert_not category.valid?
     assert_includes category.errors[:name], "can't be blank"
     assert_includes category.errors[:slug], "can't be blank"
+    assert_includes category.errors[:description], "can't be blank"
   end
 
   test 'generates slug from name when blank' do
@@ -23,5 +24,13 @@ class CategoryTest < ActiveSupport::TestCase
 
     assert_not duplicate.valid?
     assert_includes duplicate.errors[:name], 'has already been taken'
+  end
+
+  test 'requires description' do
+    category = categories(:one)
+    category.description = ''
+
+    assert_not category.valid?
+    assert_includes category.errors[:description], "can't be blank"
   end
 end

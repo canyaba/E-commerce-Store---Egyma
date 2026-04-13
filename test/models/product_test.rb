@@ -31,4 +31,16 @@ class ProductTest < ActiveSupport::TestCase
   test 'can have many categories through product categories' do
     assert_includes products(:one).categories, categories(:one)
   end
+
+  test 'title must be unique' do
+    duplicate = Product.new(
+      title: products(:one).title,
+      description: 'Different description',
+      price: 25,
+      active: true
+    )
+
+    assert_not duplicate.valid?
+    assert_includes duplicate.errors[:title], 'has already been taken'
+  end
 end

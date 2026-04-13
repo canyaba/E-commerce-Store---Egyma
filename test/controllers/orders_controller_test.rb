@@ -27,6 +27,7 @@ class OrdersControllerTest < ActionDispatch::IntegrationTest
     get order_url(orders(:paid_order))
 
     assert_response :success
+    assert_select 'nav[aria-label="Breadcrumb"]'
     assert_select 'h1', /Invoice and payment details/i
     assert_select 'td', text: /\$109\.76/
   end

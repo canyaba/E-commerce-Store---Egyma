@@ -16,6 +16,12 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'shows the public catalog on the home page' do
+    products(:one).image.attach(
+      io: file_fixture('sample-product.png').open,
+      filename: 'sample-product.png',
+      content_type: 'image/png'
+    )
+
     get root_url
 
     assert_response :success
@@ -23,6 +29,7 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_select 'article[data-testid="product-card"]', count: 6
     assert_select 'article[data-testid="product-card"]', /#{Regexp.escape(products(:one).title)}/
     assert_select 'article[data-testid="product-card"]', text: products(:nine).title, count: 0
+    assert_select 'article[data-testid="product-card"] img[width="640"][height="420"]'
     assert_select 'nav'
   end
 

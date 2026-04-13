@@ -7,6 +7,7 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     get about_url
 
     assert_response :success
+    assert_select 'nav[aria-label="Breadcrumb"]'
     assert_select 'h1', 'About Egyma'
     assert_select 'article', /Winnipeg-based digital fitness marketplace/i
   end
