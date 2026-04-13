@@ -3,593 +3,849 @@
     "source_title": "Super Cut",
     "source_url": "https://www.darebee.com/programs/super-cut.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Super Cut Program",
-    "generated_description": "Super Cut is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Super Cut is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Soft Cardio",
     "source_url": "https://www.darebee.com/programs/soft-cardio.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Soft Cardio Program",
-    "generated_description": "Soft Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Soft Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Code of Abs Plus",
     "source_url": "https://www.darebee.com/programs/code-of-abs-plus.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Code of Abs Plus Program",
-    "generated_description": "Code of Abs Plus is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Code of Abs Plus is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Stacked Program",
     "source_url": "https://www.darebee.com/programs/stacked-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Stacked Program",
-    "generated_description": "Stacked Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "Stacked Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 54
   },
   {
     "source_title": "Locked In. Program",
     "source_url": "https://www.darebee.com/programs/locked-in.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "advanced",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Locked In. Program",
-    "generated_description": "Locked In. Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
+    "generated_description": "Locked In. Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "House of the Valkyrie",
     "source_url": "https://www.darebee.com/programs/house-of-the-valkyrie.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building"
+    ],
     "category_names": [
-      "Strength Training",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "House of the Valkyrie Program",
-    "generated_description": "House of the Valkyrie is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "House of the Valkyrie is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 54
   },
   {
     "source_title": "Fit December",
     "source_url": "https://www.darebee.com/programs/fit-december.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Fit December Program",
-    "generated_description": "Fit December is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Fit December is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
-    "source_title": "The Labyrinth by DAREBEE",
+    "source_title": "The Labyrinth",
     "source_url": "https://www.darebee.com/programs/labyrinth-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
-    "generated_title": "The Labyrinth by DAREBEE Program",
-    "generated_description": "The Labyrinth by DAREBEE is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_title": "The Labyrinth Program",
+    "generated_description": "The Labyrinth is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Back and Core Program",
     "source_url": "https://www.darebee.com/programs/back-and-core.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Back and Core Program",
-    "generated_description": "Back and Core Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "Back and Core Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 54
   },
   {
     "source_title": "2-Minute Abs",
     "source_url": "https://www.darebee.com/programs/2-minute-abs.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "2-Minute Abs Program",
-    "generated_description": "2-Minute Abs is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "2-Minute Abs is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "4-Minute Abs",
     "source_url": "https://www.darebee.com/programs/4-minute-abs.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "advanced",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "4-Minute Abs Program",
-    "generated_description": "4-Minute Abs is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
+    "generated_description": "4-Minute Abs is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Momentum Program",
     "source_url": "https://www.darebee.com/programs/momentum-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Momentum Program",
-    "generated_description": "Momentum Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Momentum Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "60 Days of Cardio",
     "source_url": "https://www.darebee.com/programs/60-days-of-cardio.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "60 days",
     "equipment_hint": "bodyweight",
     "generated_title": "60 Days of Cardio Program",
-    "generated_description": "60 Days of Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, 60 days, and bodyweight.",
+    "generated_description": "60 Days of Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, 60 days, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Express Tone",
     "source_url": "https://www.darebee.com/programs/express-tone.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "dumbbells",
     "generated_title": "Express Tone Program",
-    "generated_description": "Express Tone is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
+    "generated_description": "Express Tone is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
     "generated_price": 54
   },
   {
     "source_title": "30 Days of HIIT",
     "source_url": "https://www.darebee.com/programs/30-days-of-hiit.html",
     "source_type": "program",
+    "source_category_name": "muscle-building",
+    "source_tags": [
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of HIIT Program",
-    "generated_description": "30 Days of HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label muscle-building and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "90 Days of Action",
     "source_url": "https://www.darebee.com/programs/90-days-of-action.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "90 days",
     "equipment_hint": "bodyweight",
     "generated_title": "90 Days of Action Program",
-    "generated_description": "90 Days of Action is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 90 days, and bodyweight.",
+    "generated_description": "90 Days of Action is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 90 days, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Total Body Strength Plus",
     "source_url": "https://www.darebee.com/programs/total-body-strength-plus.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Total Body Strength Plus Program",
-    "generated_description": "Total Body Strength Plus is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Total Body Strength Plus is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Total Body Strength",
     "source_url": "https://www.darebee.com/programs/total-body-strength.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Total Body Strength Program",
-    "generated_description": "Total Body Strength is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Total Body Strength is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "30 Days of Change",
     "source_url": "https://www.darebee.com/programs/30-days-of-change.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of Change Program",
-    "generated_description": "30 Days of Change is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of Change is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 30 days, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "30 Day Cardio Light",
     "source_url": "https://www.darebee.com/programs/30-days-of-cardio-light.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 day",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Day Cardio Light Program",
-    "generated_description": "30 Day Cardio Light is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 day, and bodyweight.",
-    "generated_price": 54
+    "generated_description": "30 Day Cardio Light is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 30 day, and bodyweight.",
+    "generated_price": 49
   },
   {
     "source_title": "30 Days of Cardio",
     "source_url": "https://www.darebee.com/programs/30-days-of-cardio.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of Cardio Program",
-    "generated_description": "30 Days of Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
-    "generated_price": 54
+    "generated_description": "30 Days of Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 30 days, and bodyweight.",
+    "generated_price": 49
   },
   {
     "source_title": "30 Days of Cardio Hard",
     "source_url": "https://www.darebee.com/programs/30-days-of-cardio-hard.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of Cardio Hard Program",
-    "generated_description": "30 Days of Cardio Hard is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
-    "generated_price": 54
+    "generated_description": "30 Days of Cardio Hard is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 30 days, and bodyweight.",
+    "generated_price": 49
   },
   {
     "source_title": "SOMA 40+",
     "source_url": "https://www.darebee.com/programs/soma-40.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "SOMA 40+ Program",
-    "generated_description": "SOMA 40+ is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "SOMA 40+ is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Ronin's Blade",
     "source_url": "https://www.darebee.com/programs/ronins-blade.html",
     "source_type": "program",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Ronin's Blade Program",
-    "generated_description": "Ronin's Blade is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Ronin's Blade is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Total Body",
     "source_url": "https://www.darebee.com/programs/total-body.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Total Body Program",
-    "generated_description": "Total Body is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Total Body is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Primal Strength Program",
     "source_url": "https://www.darebee.com/programs/primal-strength.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Primal Strength Program",
-    "generated_description": "Primal Strength Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "Primal Strength Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 54
   },
   {
     "source_title": "Cardio And Abs",
     "source_url": "https://www.darebee.com/programs/cardio-and-abs.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Cardio And Abs Program",
-    "generated_description": "Cardio And Abs is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Cardio And Abs is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "60 Days of HIIT by DAREBEE",
     "source_url": "https://www.darebee.com/programs/60-days-of-hiit.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "60 days",
     "equipment_hint": "bodyweight",
     "generated_title": "60 Days of HIIT by DAREBEE Program",
-    "generated_description": "60 Days of HIIT by DAREBEE is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 60 days, and bodyweight.",
+    "generated_description": "60 Days of HIIT by DAREBEE is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 60 days, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Recovery Program",
     "source_url": "https://www.darebee.com/programs/recovery-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Recovery Program",
-    "generated_description": "Recovery Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Recovery Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 39
   },
   {
     "source_title": "POWERBUILDER Program",
     "source_url": "https://www.darebee.com/programs/powerbuilder-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "POWERBUILDER Program",
-    "generated_description": "POWERBUILDER Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "POWERBUILDER Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Extreme HIIT Program",
     "source_url": "https://www.darebee.com/programs/extreme-hiit.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Extreme HIIT Program",
-    "generated_description": "Extreme HIIT Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Extreme HIIT Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "30 Days of LIIT",
     "source_url": "https://www.darebee.com/programs/30-days-of-liit.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of LIIT Program",
-    "generated_description": "30 Days of LIIT is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of LIIT is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 30 days, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "ZEN Program",
     "source_url": "https://www.darebee.com/programs/zen-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility"
+    ],
     "category_names": [
-      "Strength Training",
       "Mobility & Recovery"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "ZEN Program",
-    "generated_description": "ZEN Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and minimal equipment.",
-    "generated_price": 49
+    "generated_description": "ZEN Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_price": 39
   },
   {
     "source_title": "60 Days of Walking",
     "source_url": "https://www.darebee.com/programs/60-days-of-walking.html",
     "source_type": "program",
+    "source_category_name": "muscle-building",
+    "source_tags": [
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "60 days",
     "equipment_hint": "bodyweight",
     "generated_title": "60 Days of Walking Program",
-    "generated_description": "60 Days of Walking is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 60 days, and bodyweight.",
+    "generated_description": "60 Days of Walking is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label muscle-building and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 60 days, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Code of Abs",
     "source_url": "https://www.darebee.com/programs/code-of-abs.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Code of Abs Program",
-    "generated_description": "Code of Abs is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Code of Abs is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Unbound",
     "source_url": "https://www.darebee.com/programs/unbound-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Unbound Program",
-    "generated_description": "Unbound is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "Unbound is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 54
   },
   {
     "source_title": "Push Pull Legs",
     "source_url": "https://www.darebee.com/programs/push-pull-legs.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Push Pull Legs Program",
-    "generated_description": "Push Pull Legs is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Push Pull Legs is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Shadebound",
     "source_url": "https://www.darebee.com/programs/shadebound-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "advanced",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Shadebound Program",
-    "generated_description": "Shadebound is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
-    "generated_price": 54
+    "generated_description": "Shadebound is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a advanced approach, multi-week program, and bodyweight.",
+    "generated_price": 49
   },
   {
     "source_title": "Half Marathon Training",
     "source_url": "https://www.darebee.com/programs/half-marathon-training.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -597,13 +853,19 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Half Marathon Training Program",
-    "generated_description": "Half Marathon Training is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Half Marathon Training is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Marathon Training",
     "source_url": "https://www.darebee.com/programs/marathon-training.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -611,13 +873,18 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Marathon Training Program",
-    "generated_description": "Marathon Training is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Marathon Training is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "8 Weeks to 5K Program",
     "source_url": "https://www.darebee.com/programs/8weeks-to-5k.html",
     "source_type": "program",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -625,44 +892,64 @@
     "duration_hint": "8 weeks",
     "equipment_hint": "bodyweight",
     "generated_title": "8 Weeks to 5K Program",
-    "generated_description": "8 Weeks to 5K Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 8 weeks, and bodyweight.",
+    "generated_description": "8 Weeks to 5K Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, 8 weeks, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Power HIIT",
     "source_url": "https://www.darebee.com/programs/power-hiit.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Power HIIT Program",
-    "generated_description": "Power HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Power HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Bootcamp Program",
     "source_url": "https://www.darebee.com/programs/bootcamp-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "dumbbells",
     "generated_title": "Bootcamp Program",
-    "generated_description": "Bootcamp Program is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
+    "generated_description": "Bootcamp Program is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
     "generated_price": 54
   },
   {
     "source_title": "Hard Reset Cardio",
     "source_url": "https://www.darebee.com/programs/hard-reset-cardio.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -670,74 +957,104 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Hard Reset Cardio Program",
-    "generated_description": "Hard Reset Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Hard Reset Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Hard Reset Strength",
     "source_url": "https://www.darebee.com/programs/hard-reset-strength.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Hard Reset Strength Program",
-    "generated_description": "Hard Reset Strength is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Hard Reset Strength is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "The Olympian",
     "source_url": "https://www.darebee.com/programs/olympian-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "The Olympian Program",
-    "generated_description": "The Olympian is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "The Olympian is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Total Burn",
     "source_url": "https://www.darebee.com/programs/total-burn.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Total Burn Program",
-    "generated_description": "Total Burn is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "Total Burn is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 49
   },
   {
     "source_title": "IRONHEART",
     "source_url": "https://www.darebee.com/programs/ironheart-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "dumbbells",
     "generated_title": "IRONHEART Program",
-    "generated_description": "IRONHEART is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
+    "generated_description": "IRONHEART is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
     "generated_price": 54
   },
   {
     "source_title": "Pathfinder Plus",
     "source_url": "https://www.darebee.com/programs/pathfinder-plus-program.html",
     "source_type": "program",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -745,13 +1062,18 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Pathfinder Plus Program",
-    "generated_description": "Pathfinder Plus is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Pathfinder Plus is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Pathfinder",
     "source_url": "https://www.darebee.com/programs/pathfinder-program.html",
     "source_type": "program",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -759,45 +1081,65 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Pathfinder Program",
-    "generated_description": "Pathfinder is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Pathfinder is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Arms of Steel [SEATED]",
     "source_url": "https://www.darebee.com/programs/arms-of-steel-seated.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Arms of Steel [SEATED] Program",
-    "generated_description": "Arms of Steel [SEATED] is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Arms of Steel [SEATED] is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Arms Of Steel",
     "source_url": "https://www.darebee.com/programs/arms-of-steel.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Arms Of Steel Program",
-    "generated_description": "Arms Of Steel is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Arms Of Steel is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "1-Minute HIIT",
     "source_url": "https://www.darebee.com/programs/1min-hiit.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -805,104 +1147,146 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "1-Minute HIIT Program",
-    "generated_description": "1-Minute HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "1-Minute HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Runner Prime",
     "source_url": "https://www.darebee.com/programs/runner-prime.html",
     "source_type": "program",
+    "source_category_name": "muscle-building",
+    "source_tags": [
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Runner Prime Program",
-    "generated_description": "Runner Prime is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Runner Prime is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label muscle-building and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Reboot",
     "source_url": "https://www.darebee.com/programs/reboot-program.html",
     "source_type": "program",
+    "source_category_name": "muscle-building",
+    "source_tags": [
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Reboot Program",
-    "generated_description": "Reboot is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and minimal equipment.",
+    "generated_description": "Reboot is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label muscle-building and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and minimal equipment.",
     "generated_price": 54
   },
   {
     "source_title": "Square One",
     "source_url": "https://www.darebee.com/programs/square-one.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Square One Program",
-    "generated_description": "Square One is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Square One is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "The Gauntlet",
     "source_url": "https://www.darebee.com/programs/gauntlet-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "kettlebell",
     "generated_title": "The Gauntlet Program",
-    "generated_description": "The Gauntlet is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and kettlebell.",
+    "generated_description": "The Gauntlet is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and kettlebell.",
     "generated_price": 54
   },
   {
     "source_title": "Fireheart",
     "source_url": "https://www.darebee.com/programs/fireheart-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Fireheart Program",
-    "generated_description": "Fireheart is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Fireheart is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "30 Days More of Yoga",
     "source_url": "https://www.darebee.com/programs/30-days-more-of-yoga.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days More of Yoga Program",
-    "generated_description": "30 Days More of Yoga is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for mobility, recovery, and better movement quality with a beginner approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days More of Yoga is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for mobility, recovery, and better movement quality with a beginner approach, 30 days, and bodyweight.",
     "generated_price": 39
   },
   {
     "source_title": "High Gear",
     "source_url": "https://www.darebee.com/programs/high-gear.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -910,28 +1294,40 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "High Gear Program",
-    "generated_description": "High Gear is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "High Gear is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "TEN",
     "source_url": "https://www.darebee.com/programs/ten-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "TEN Program",
-    "generated_description": "TEN is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "TEN is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Spellbound",
     "source_url": "https://www.darebee.com/programs/spellbound-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -939,59 +1335,85 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Spellbound Program",
-    "generated_description": "Spellbound is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "Spellbound is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 49
   },
   {
     "source_title": "Vitality",
     "source_url": "https://www.darebee.com/programs/vitality-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Vitality Program",
-    "generated_description": "Vitality is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Vitality is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Core Strength",
     "source_url": "https://www.darebee.com/programs/core-strength.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Core Strength Program",
-    "generated_description": "Core Strength is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Core Strength is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Zero Hero",
     "source_url": "https://www.darebee.com/programs/zero-hero.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Zero Hero Program",
-    "generated_description": "Zero Hero is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Zero Hero is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Baseline",
     "source_url": "https://www.darebee.com/programs/baseline-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -999,43 +1421,60 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Baseline Program",
-    "generated_description": "Baseline is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Baseline is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "30 Days of Yoga",
     "source_url": "https://www.darebee.com/programs/30-days-of-yoga.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of Yoga Program",
-    "generated_description": "30 Days of Yoga is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of Yoga is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, 30 days, and bodyweight.",
     "generated_price": 39
   },
   {
     "source_title": "Power Up",
     "source_url": "https://www.darebee.com/programs/power-up.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Power Up Program",
-    "generated_description": "Power Up is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Power Up is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Cardio Go!",
     "source_url": "https://www.darebee.com/programs/cardio-go.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1043,58 +1482,83 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Cardio Go! Program",
-    "generated_description": "Cardio Go! is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Cardio Go! is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Combat HIIT",
     "source_url": "https://www.darebee.com/programs/combat-hiit.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Combat HIIT Program",
-    "generated_description": "Combat HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
-    "generated_price": 54
+    "generated_description": "Combat HIIT is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_price": 49
   },
   {
     "source_title": "Full Circuit",
     "source_url": "https://www.darebee.com/programs/full-circuit.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Full Circuit Program",
-    "generated_description": "Full Circuit is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Full Circuit is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Epic Five",
     "source_url": "https://www.darebee.com/programs/epic-five.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Epic Five Program",
-    "generated_description": "Epic Five is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Epic Five is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Carbon & Dust",
     "source_url": "https://www.darebee.com/programs/carbon-and-dust.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1102,60 +1566,84 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Carbon & Dust Program",
-    "generated_description": "Carbon & Dust is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Carbon & Dust is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Power Cardio",
     "source_url": "https://www.darebee.com/programs/power-cardio.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "advanced",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Power Cardio Program",
-    "generated_description": "Power Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
+    "generated_description": "Power Cardio is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Athena's Playbook",
     "source_url": "https://www.darebee.com/programs/athenas-playbook.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Athena's Playbook Program",
-    "generated_description": "Athena's Playbook is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Athena's Playbook is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "IRONBORN",
     "source_url": "https://www.darebee.com/programs/ironborn-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "dumbbells",
     "generated_title": "IRONBORN Program",
-    "generated_description": "IRONBORN is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
+    "generated_description": "IRONBORN is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and dumbbells.",
     "generated_price": 54
   },
   {
     "source_title": "TOTALS",
     "source_url": "https://www.darebee.com/programs/totals-program.html",
     "source_type": "program",
+    "source_category_name": "bodyweight",
+    "source_tags": [
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1163,136 +1651,191 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "TOTALS Program",
-    "generated_description": "TOTALS is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "TOTALS is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label bodyweight and suits customers looking for structured training, conditioning, and practical strength development with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Strength Protocol",
     "source_url": "https://www.darebee.com/programs/strength-protocol.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "advanced",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Strength Protocol Program",
-    "generated_description": "Strength Protocol is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
+    "generated_description": "Strength Protocol is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Boxer Prime",
     "source_url": "https://www.darebee.com/programs/boxer-prime.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Boxer Prime Program",
-    "generated_description": "Boxer Prime is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
-    "generated_price": 54
+    "generated_description": "Boxer Prime is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a beginner approach, multi-week program, and bodyweight.",
+    "generated_price": 49
   },
   {
     "source_title": "Cardio Trim",
     "source_url": "https://www.darebee.com/programs/cardio-trim.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Cardio Trim Program",
-    "generated_description": "Cardio Trim is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Cardio Trim is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Cardio Trim Run",
     "source_url": "https://www.darebee.com/programs/cardio-trim-run.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "minimal equipment",
     "generated_title": "Cardio Trim Run Program",
-    "generated_description": "Cardio Trim Run is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
+    "generated_description": "Cardio Trim Run is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and minimal equipment.",
     "generated_price": 54
   },
   {
     "source_title": "Military Fit",
     "source_url": "https://www.darebee.com/programs/military-fit.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Military Fit Program",
-    "generated_description": "Military Fit is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Military Fit is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Military Fit Plus",
     "source_url": "https://www.darebee.com/programs/military-fit-plus.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Military Fit Plus Program",
-    "generated_description": "Military Fit Plus is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Military Fit Plus is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Age of Pandora",
     "source_url": "https://www.darebee.com/programs/age-of-pandora.html",
     "source_type": "program",
+    "source_category_name": "muscle-building",
+    "source_tags": [
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Age of Pandora Program",
-    "generated_description": "Age of Pandora is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Age of Pandora is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label muscle-building and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Avatar Upgrade",
     "source_url": "https://www.darebee.com/programs/avatar-program.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Avatar Upgrade Program",
-    "generated_description": "Avatar Upgrade is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Avatar Upgrade is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Hero's Journey",
     "source_url": "https://www.darebee.com/programs/hero-journey.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1300,90 +1843,131 @@
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Hero's Journey Program",
-    "generated_description": "Hero's Journey is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Hero's Journey is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "Spartan Trials",
     "source_url": "https://www.darebee.com/programs/spartan-trials.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Spartan Trials Program",
-    "generated_description": "Spartan Trials is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Spartan Trials is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Total Abs",
     "source_url": "https://www.darebee.com/programs/total-abs.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "advanced",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Total Abs Program",
-    "generated_description": "Total Abs is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
+    "generated_description": "Total Abs is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a advanced approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "30 Days of Cardio Blast",
     "source_url": "https://www.darebee.com/programs/30-days-of-cardio-blast.html",
     "source_type": "program",
+    "source_category_name": "muscle-building",
+    "source_tags": [
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of Cardio Blast Program",
-    "generated_description": "30 Days of Cardio Blast is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of Cardio Blast is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label muscle-building and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "30 Days of Strength",
     "source_url": "https://www.darebee.com/programs/30-days-of-strength.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of Strength Program",
-    "generated_description": "30 Days of Strength is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of Strength is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Fighter's Codex",
     "source_url": "https://www.darebee.com/programs/fighters-codex.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "beginner",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Fighter's Codex Program",
-    "generated_description": "Fighter's Codex is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
+    "generated_description": "Fighter's Codex is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a beginner approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "30 Days of HIIT Advanced",
     "source_url": "https://www.darebee.com/programs/30-days-of-hiit-advanced.html",
     "source_type": "program",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1391,59 +1975,85 @@
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of HIIT Advanced Program",
-    "generated_description": "30 Days of HIIT Advanced is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a advanced approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of HIIT Advanced is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a advanced approach, 30 days, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "30 Days of Gravity",
     "source_url": "https://www.darebee.com/programs/30-days-of-gravity.html",
     "source_type": "program",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Muscle Building"
+      "Muscle Building",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "30 days",
     "equipment_hint": "bodyweight",
     "generated_title": "30 Days of Gravity Program",
-    "generated_description": "30 Days of Gravity is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
+    "generated_description": "30 Days of Gravity is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, 30 days, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Foundation",
     "source_url": "https://www.darebee.com/programs/foundation-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "muscle-building",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Foundation Program",
-    "generated_description": "Foundation is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Foundation is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for hypertrophy, physique structure, and consistent gym progress with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 54
   },
   {
     "source_title": "Foundation Light",
     "source_url": "https://www.darebee.com/programs/foundation-light-program.html",
     "source_type": "program",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "multi-week program",
     "equipment_hint": "bodyweight",
     "generated_title": "Foundation Light Program",
-    "generated_description": "Foundation Light is an Egyma-ready program inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
+    "generated_description": "Foundation Light is an Egyma-ready program inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, multi-week program, and bodyweight.",
     "generated_price": 49
   },
   {
     "source_title": "All In Workout",
     "source_url": "https://www.darebee.com/workouts/all-in-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1451,13 +2061,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "All In Workout",
-    "generated_description": "All In Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "All In Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Durability +1 Workout",
     "source_url": "https://www.darebee.com/workouts/durability-plus-one-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1465,28 +2080,39 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Durability +1 Workout",
-    "generated_description": "Durability +1 Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Durability +1 Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Walking Yoga Workout",
     "source_url": "https://www.darebee.com/workouts/walking-yoga-workout.html",
     "source_type": "workout",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
-      "Mobility & Recovery"
+      "Mobility & Recovery",
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Walking Yoga Workout",
-    "generated_description": "Walking Yoga Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Walking Yoga Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 24
   },
   {
     "source_title": "Grind House Workout",
     "source_url": "https://www.darebee.com/workouts/grind-house-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1494,13 +2120,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Grind House Workout",
-    "generated_description": "Grind House Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Grind House Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "I Regret Nothing Workout",
     "source_url": "https://www.darebee.com/workouts/i-regret-nothing-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1508,13 +2139,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "I Regret Nothing Workout",
-    "generated_description": "I Regret Nothing Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "I Regret Nothing Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "My Villain Arc Workout",
     "source_url": "https://www.darebee.com/workouts/my-villain-arc-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1522,13 +2158,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "My Villain Arc Workout",
-    "generated_description": "My Villain Arc Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "My Villain Arc Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Monolith Workout",
     "source_url": "https://www.darebee.com/workouts/monolith-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1536,13 +2177,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Monolith Workout",
-    "generated_description": "Monolith Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Monolith Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Punchy Workout",
     "source_url": "https://www.darebee.com/workouts/punchy-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1550,13 +2196,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Punchy Workout",
-    "generated_description": "Punchy Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Punchy Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "And... Action! Workout",
     "source_url": "https://www.darebee.com/workouts/and-action-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1564,13 +2215,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "And... Action! Workout",
-    "generated_description": "And... Action! Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "And... Action! Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Citadel Workout",
     "source_url": "https://www.darebee.com/workouts/citadel-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1578,29 +2234,40 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Citadel Workout",
-    "generated_description": "Citadel Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Citadel Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Hip Opener Workout",
     "source_url": "https://www.darebee.com/workouts/hip-opener-workout.html",
     "source_type": "workout",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Hip Opener Workout",
-    "generated_description": "Hip Opener Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Hip Opener Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 24
   },
   {
     "source_title": "Who Approved This Workout",
     "source_url": "https://www.darebee.com/workouts/who-approved-this-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1608,13 +2275,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Who Approved This Workout",
-    "generated_description": "Who Approved This Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Who Approved This Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Sonic Boom Workout",
     "source_url": "https://www.darebee.com/workouts/sonic-boom-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1622,13 +2294,19 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Sonic Boom Workout",
-    "generated_description": "Sonic Boom Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Sonic Boom Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Power Armor Workout",
     "source_url": "https://www.darebee.com/workouts/power-armor-workout.html",
     "source_type": "workout",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1636,13 +2314,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Power Armor Workout",
-    "generated_description": "Power Armor Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Power Armor Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Imperator Workout",
     "source_url": "https://www.darebee.com/workouts/imperator-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1650,13 +2333,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Imperator Workout",
-    "generated_description": "Imperator Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Imperator Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Crouching Tiger, Hidden Dragon Workout",
     "source_url": "https://www.darebee.com/workouts/crouching-tiger-hidden-dragon-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1664,13 +2352,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Crouching Tiger, Hidden Dragon Workout",
-    "generated_description": "Crouching Tiger, Hidden Dragon Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Crouching Tiger, Hidden Dragon Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Heartless Workout",
     "source_url": "https://www.darebee.com/workouts/heartless-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1678,29 +2371,40 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Heartless Workout",
-    "generated_description": "Heartless Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Heartless Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Shoulder Opener Workout",
     "source_url": "https://www.darebee.com/workouts/shoulder-opener-workout.html",
     "source_type": "workout",
+    "source_category_name": "mobility",
+    "source_tags": [
+      "mobility",
+      "muscle-building",
+      "bodyweight"
+    ],
     "category_names": [
-      "Strength Training",
+      "Mobility & Recovery",
       "Muscle Building",
-      "Mobility & Recovery"
+      "Strength Training"
     ],
     "difficulty_hint": "all-levels",
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Shoulder Opener Workout",
-    "generated_description": "Shoulder Opener Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Shoulder Opener Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label mobility and suits customers looking for mobility, recovery, and better movement quality with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 24
   },
   {
     "source_title": "Domino Workout",
     "source_url": "https://www.darebee.com/workouts/domino-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1708,13 +2412,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Domino Workout",
-    "generated_description": "Domino Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Domino Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Ball Toss Workout",
     "source_url": "https://www.darebee.com/workouts/ball-toss-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1722,13 +2431,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Ball Toss Workout",
-    "generated_description": "Ball Toss Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Ball Toss Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Spartan Standard Workout",
     "source_url": "https://www.darebee.com/workouts/spartan-standard-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1736,13 +2450,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Spartan Standard Workout",
-    "generated_description": "Spartan Standard Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Spartan Standard Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Now You See Me Workout",
     "source_url": "https://www.darebee.com/workouts/now-you-see-me-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1750,13 +2469,19 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Now You See Me Workout",
-    "generated_description": "Now You See Me Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Now You See Me Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Savage Strength Workout",
     "source_url": "https://www.darebee.com/workouts/savage-strength-workout.html",
     "source_type": "workout",
+    "source_category_name": "strength",
+    "source_tags": [
+      "strength",
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1764,13 +2489,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Savage Strength Workout",
-    "generated_description": "Savage Strength Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Savage Strength Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label strength and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "Burpee REHIT Workout",
     "source_url": "https://www.darebee.com/workouts/burpee-rehit-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1778,13 +2508,18 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "Burpee REHIT Workout",
-    "generated_description": "Burpee REHIT Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "Burpee REHIT Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   },
   {
     "source_title": "5-Minute REHIT Workout",
     "source_url": "https://www.darebee.com/workouts/5minute-rehit-workout.html",
     "source_type": "workout",
+    "source_category_name": "conditioning",
+    "source_tags": [
+      "conditioning",
+      "bodyweight"
+    ],
     "category_names": [
       "Strength Training"
     ],
@@ -1792,7 +2527,7 @@
     "duration_hint": "single-session workout",
     "equipment_hint": "bodyweight",
     "generated_title": "5-Minute REHIT Workout",
-    "generated_description": "5-Minute REHIT Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
+    "generated_description": "5-Minute REHIT Workout is an Egyma-ready workout inspired by public DAREBEE metadata. It preserves the source taxonomy label conditioning and suits customers looking for structured training, conditioning, and practical strength development with a all-levels approach, single-session workout, and bodyweight.",
     "generated_price": 34
   }
 ]

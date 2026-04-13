@@ -15,22 +15,32 @@ module DarebeeScrapedSeedData
   PAGE_SIZE = 15
   DEFAULT_TARGET_COUNT = 120
 
-  CATEGORY_KEYWORDS = {
-    'Strength Training' => %w[
-      strength strong power powerlifting barbell conditioning athletic
-      endurance explosive resistance core upper-body lower-body full-body
-      push-up pull-up squat deadlift combat stamina hiit cardio circuit
-      speed agility bodyweight challenge
+  SOURCE_TAXONOMY_KEYWORDS = {
+    'mobility' => %w[
+      mobility recover recovery stretch stretching flexible flexibility yoga
+      warm-up warmup opener flow cooldown decompress
     ],
-    'Muscle Building' => %w[
-      muscle hypertrophy builder volume growth split physique sculpt tone
-      chest shoulders arms glutes legs mass shred abs lean aesthetic
+    'strength' => %w[
+      strength strong power powerlifting barbell deadlift squat push-up pull-up
+      athletic resistance full-body combat
     ],
-    'Mobility & Recovery' => %w[
-      mobility flexible flexibility recovery recover stretch stretching warm-up
-      warmup yoga opener range motion flow joint hips hip shoulder shoulders
-      spine thoracic cooldown decompress
+    'muscle-building' => %w[
+      muscle builder hypertrophy volume growth split physique chest shoulders
+      arms glutes legs abs aesthetic tone sculpt
+    ],
+    'conditioning' => %w[
+      conditioning endurance stamina circuit hiit liit rehit cardio run running
+      walking marathon 5k interval agility explosive speed
+    ],
+    'bodyweight' => %w[
+      bodyweight no-equipment no equipment calisthenics
     ]
+  }.freeze
+
+  LOCAL_CATEGORY_MAPPING = {
+    'Mobility & Recovery' => %w[mobility yoga],
+    'Muscle Building' => %w[muscle-building],
+    'Strength Training' => %w[strength conditioning bodyweight]
   }.freeze
 
   EQUIPMENT_KEYWORDS = {
@@ -166,13 +176,17 @@ module DarebeeScrapedSeedData
       extract_page_excerpt(doc)
     ].join(' ').downcase
 
-    category_names = category_names_for(classification_text: classification_text)
+    source_tags = source_tags_for(classification_text: classification_text)
+    source_category_name = source_category_name_for(source_tags: source_tags)
+    category_names = category_names_for(source_tags: source_tags, classification_text: classification_text)
     return nil if category_names.empty?
 
     {
       source_title: source_title,
       source_url: url,
       source_type: source_type,
+      source_category_name: source_category_name,
+      source_tags: source_tags,
       category_names: category_names,
       difficulty_hint: difficulty_hint_for(classification_text),
       duration_hint: duration_hint_for(source_title: source_title, source_type: source_type),
@@ -182,7 +196,8 @@ module DarebeeScrapedSeedData
         source_title: source_title,
         source_type: source_type,
         category_names: category_names,
-        classification_text: classification_text
+        classification_text: classification_text,
+        source_category_name: source_category_name
       ),
       generated_price: generated_price_for(
         source_type: source_type,
@@ -230,12 +245,24 @@ module DarebeeScrapedSeedData
     doc.css('body').text.gsub(/\s+/, ' ').strip[0, 1_500]
   end
 
-  def category_names_for(classification_text:)
-    matched_categories = CATEGORY_KEYWORDS.filter_map do |category_name, keywords|
-      category_name if keywords.any? { |keyword| classification_text.include?(keyword) }
+  def source_tags_for(classification_text:)
+    SOURCE_TAXONOMY_KEYWORDS.each_with_object([]) do |(taxonomy_label, keywords), matched_tags|
+      matched_tags << taxonomy_label if keywords.any? { |keyword| classification_text.include?(keyword) }
+    end
+  end
+
+  def source_category_name_for(source_tags:)
+    source_tags.first || 'general-fitness'
+  end
+
+  def category_names_for(source_tags:, classification_text:)
+    matched_categories = LOCAL_CATEGORY_MAPPING.each_with_object([]) do |(category_name, mapped_tags), categories|
+      categories << category_name if mapped_tags.intersect?(source_tags)
     end
 
-    matched_categories.presence || ['Strength Training']
+    return ['Strength Training'] if matched_categories.empty? && classification_text.present?
+
+    matched_categories
   end
 
   def difficulty_hint_for(classification_text)
@@ -268,7 +295,13 @@ module DarebeeScrapedSeedData
   end
 
   # rubocop:disable Metrics/MethodLength
-  def generated_description_for(source_title:, source_type:, category_names:, classification_text:)
+  def generated_description_for(
+    source_title:,
+    source_type:,
+    category_names:,
+    classification_text:,
+    source_category_name:
+  )
     focus = description_focus_for(
       source_title: source_title,
       category_names: category_names
@@ -280,7 +313,8 @@ module DarebeeScrapedSeedData
 
     [
       "#{source_title} is an Egyma-ready #{source_type} inspired by public DAREBEE metadata.",
-      "It suits customers looking for #{focus}",
+      "It preserves the source taxonomy label #{source_category_name.humanize.downcase}",
+      "and suits customers looking for #{focus}",
       "with a #{difficulty_hint_for(classification_text)} approach, #{duration_hint},",
       "and #{equipment_hint_for(classification_text)}."
     ].join(' ')

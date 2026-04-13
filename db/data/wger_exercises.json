@@ -1,0 +1,680 @@
+[
+  {
+    "source_name": "Bear Walk 2",
+    "source_api_id": 57,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/57/",
+    "source_category_id": 11,
+    "source_category_name": "Chest",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building"
+    ],
+    "generated_title": "Bear Walk 2 Chest Muscle Builder",
+    "generated_description": "Bear Walk 2 is seeded from the public Wger API. It is based on the source category Chest with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). -Rest your weight on your palms and the balls of your feet, not dissimilar to normal pushup position -Move by stepping with your R palm and L foot, then your L palm and R foot.  Ba This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Cable Rear Delt Fly",
+    "source_api_id": 822,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/822/",
+    "source_category_id": 13,
+    "source_category_name": "Shoulders",
+    "source_equipment_names": [],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building"
+    ],
+    "generated_title": "Cable Rear Delt Fly Shoulders Muscle Builder",
+    "generated_description": "Cable Rear Delt Fly is seeded from the public Wger API. It is based on the source category Shoulders with a all-levels difficulty profile and minimal equipment expectations. The reverse cable fly, also known as the cable rear delt fly, is a deltoid muscle strengthening and definition exercise. It’s one of the best isolation exercises for your back and This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Axe Hold",
+    "source_api_id": 31,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/31/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [
+      "Dumbbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Axe Hold Arms Strength Guide",
+    "generated_description": "Axe Hold is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and equipment cues including Dumbbell. Grab dumbbells and extend arms to side and hold as long as you can This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Tricep Pushdown on Cable",
+    "source_api_id": 805,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/805/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [],
+    "source_level": "all-levels",
+    "category_names": [
+      "Muscle Building"
+    ],
+    "generated_title": "Tricep Pushdown on Cable Arms Muscle Builder",
+    "generated_description": "Tricep Pushdown on Cable is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and minimal equipment expectations. The cable rope push-down is a popular exercise targeting the triceps muscles. It's easy to learn and perform, making it a favorite for everyone from beginners to advanced lifters. This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Step-ups",
+    "source_api_id": 981,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/981/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "Bench"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Step-ups Legs Strength Guide",
+    "generated_description": "Step-ups is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including Bench. Starting position:Stand facing a chair.Steps:Step up onto the chair.Step off the chair.Repeat. This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "commando pull-ups",
+    "source_api_id": 980,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/980/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "Pull-up bar"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building"
+    ],
+    "generated_title": "commando pull-ups Abs Muscle Builder",
+    "generated_description": "commando pull-ups is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including Pull-up bar. variation of the pull-up exercise, it is performed with a grip of one hand supine and one hand prone, do not twist the torso to get back to the front, the head passes once to one s This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Single Arm Plank to Row",
+    "source_api_id": 1022,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/1022/",
+    "source_category_id": 12,
+    "source_category_name": "Back",
+    "source_equipment_names": [
+      "Kettlebell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Single Arm Plank to Row Back Strength Guide",
+    "generated_description": "Single Arm Plank to Row is seeded from the public Wger API. It is based on the source category Back with a all-levels difficulty profile and equipment cues including Kettlebell. Start position as row, extend to plank and back. Finish with row and repeat This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Fingerboard 20 mm edge",
+    "source_api_id": 820,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/820/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Fingerboard 20 mm edge Arms Strength Guide",
+    "generated_description": "Fingerboard 20 mm edge is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and minimal equipment expectations. Hang for 10 seconds on a fingerboard with a 20 mm edge This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Abdominal Stabilization",
+    "source_api_id": 56,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/56/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "Gym mat"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Muscle Building"
+    ],
+    "generated_title": "Abdominal Stabilization Abs Muscle Builder",
+    "generated_description": "Abdominal Stabilization is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including Gym mat. The imported record has been normalized into an Egyma-ready catalog description.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Incline Bench Reverse Fly",
+    "source_api_id": 828,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/828/",
+    "source_category_id": 12,
+    "source_category_name": "Back",
+    "source_equipment_names": [
+      "Dumbbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Incline Bench Reverse Fly Back Strength Guide",
+    "generated_description": "Incline Bench Reverse Fly is seeded from the public Wger API. It is based on the source category Back with a all-levels difficulty profile and equipment cues including Dumbbell. The incline dumbbell reverse fly is an upper-body exercise targeting the posterior or rear deltoids, as well as the postural muscles of the upper back. Because it targets such smal This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Handstand Push Up",
+    "source_api_id": 907,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/907/",
+    "source_category_id": 13,
+    "source_category_name": "Shoulders",
+    "source_equipment_names": [],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Handstand Push Up Shoulders Strength Guide",
+    "generated_description": "Handstand Push Up is seeded from the public Wger API. It is based on the source category Shoulders with a all-levels difficulty profile and minimal equipment expectations. Handstands Push Up which demand high level of skill This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Zone 2 Running",
+    "source_api_id": 908,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/908/",
+    "source_category_id": 15,
+    "source_category_name": "Cardio",
+    "source_equipment_names": [],
+    "source_level": "all-levels",
+    "category_names": [
+      "Mobility & Recovery"
+    ],
+    "generated_title": "Zone 2 Running Cardio Mobility Drill",
+    "generated_description": "Zone 2 Running is seeded from the public Wger API. It is based on the source category Cardio with a all-levels difficulty profile and minimal equipment expectations. Zone two Cardio for endurance, you should be able to speak while running This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 22
+  },
+  {
+    "source_name": "LYING DUMBBELL ROW SS SEATED SHRUG",
+    "source_api_id": 923,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/923/",
+    "source_category_id": 12,
+    "source_category_name": "Back",
+    "source_equipment_names": [
+      "Dumbbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "LYING DUMBBELL ROW SS SEATED SHRUG Back Strength Guide",
+    "generated_description": "LYING DUMBBELL ROW SS SEATED SHRUG is seeded from the public Wger API. It is based on the source category Back with a all-levels difficulty profile and equipment cues including Dumbbell. laying on the stomach on a bench with slight angle This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Suspended crossess",
+    "source_api_id": 927,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/927/",
+    "source_category_id": 15,
+    "source_category_name": "Cardio",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Mobility & Recovery"
+    ],
+    "generated_title": "Suspended crossess Cardio Mobility Drill",
+    "generated_description": "Suspended crossess is seeded from the public Wger API. It is based on the source category Cardio with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Suspension exercise with trx for chest training This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Biceps with TRX",
+    "source_api_id": 958,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/958/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building"
+    ],
+    "generated_title": "Biceps with TRX Abs Muscle Builder",
+    "generated_description": "Biceps with TRX is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Grab the handles of the TRX straps, lean your body back, arms and legs extended, with your body positioned in a single straight line. (This is an arm exercise, not an abdominal one This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Kettlebell Swing",
+    "source_api_id": 960,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/960/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "Kettlebell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building"
+    ],
+    "generated_title": "Kettlebell Swing Abs Muscle Builder",
+    "generated_description": "Kettlebell Swing is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including Kettlebell. While kettlebell swings are a full-body workout, they mostly target the muscles along the posterior chain (back of the body). The main muscles used are the glutes, hamstrings, spin This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Swimming 50m sprints",
+    "source_api_id": 961,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/961/",
+    "source_category_id": 15,
+    "source_category_name": "Cardio",
+    "source_equipment_names": [],
+    "source_level": "all-levels",
+    "category_names": [
+      "Mobility & Recovery"
+    ],
+    "generated_title": "Swimming 50m sprints Cardio Mobility Drill",
+    "generated_description": "Swimming 50m sprints is seeded from the public Wger API. It is based on the source category Cardio with a all-levels difficulty profile and minimal equipment expectations. 50m swimming sprints at 1min This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 22
+  },
+  {
+    "source_name": "one-handed kettlebell curls",
+    "source_api_id": 975,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/975/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [
+      "Kettlebell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "one-handed kettlebell curls Arms Strength Guide",
+    "generated_description": "one-handed kettlebell curls is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and equipment cues including Kettlebell. Standing with the kettlebell in one hand and bent at the elbow, start from a fully extended position until your hand reaches shoulder height. To perform the movement correctly, try This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Medicine ball booklet crunch",
+    "source_api_id": 976,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/976/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Muscle Building"
+    ],
+    "generated_title": "Medicine ball booklet crunch Abs Muscle Builder",
+    "generated_description": "Medicine ball booklet crunch is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Using a medicine ball as an overload will make the exercise heavier. This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Box squat",
+    "source_api_id": 977,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/977/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building"
+    ],
+    "generated_title": "Box squat Abs Muscle Builder",
+    "generated_description": "Box squat is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Set up the box: Position the box behind you, about 3 feet from a squat rack if you're using a barbell. Choose a height that allows you to squat down and gently tap your glutes on t This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Knee Raises",
+    "source_api_id": 978,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/978/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "Pull-up bar"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Muscle Building"
+    ],
+    "generated_title": "Knee Raises Abs Muscle Builder",
+    "generated_description": "Knee Raises is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including Pull-up bar. The 90° leg raise on the bar is a very intense exercise that involves all the abdominal muscles. This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Sloper hanging",
+    "source_api_id": 804,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/804/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Sloper hanging Arms Strength Guide",
+    "generated_description": "Sloper hanging is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Hanging on sloper holds of a fingerboard for a amount of seconds This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Arnold Shoulder Press",
+    "source_api_id": 20,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/20/",
+    "source_category_id": 13,
+    "source_category_name": "Shoulders",
+    "source_equipment_names": [
+      "Dumbbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Arnold Shoulder Press Shoulders Strength Guide",
+    "generated_description": "Arnold Shoulder Press is seeded from the public Wger API. It is based on the source category Shoulders with a all-levels difficulty profile and equipment cues including Dumbbell. Very common shoulder exercise.   As shown here: https://www.youtube.com/watch?v=vj2w851ZHRM This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Barbell Hack Squats",
+    "source_api_id": 43,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/43/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "Barbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Barbell Hack Squats Legs Strength Guide",
+    "generated_description": "Barbell Hack Squats is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including Barbell. Perform leg squats with barbell behind your legs This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Dumbbell Push-Up",
+    "source_api_id": 801,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/801/",
+    "source_category_id": 11,
+    "source_category_name": "Chest",
+    "source_equipment_names": [
+      "Dumbbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Dumbbell Push-Up Chest Strength Guide",
+    "generated_description": "Dumbbell Push-Up is seeded from the public Wger API. It is based on the source category Chest with a all-levels difficulty profile and equipment cues including Dumbbell. Normal Push-ups on Dumbbells, this brings a further range of movement This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Seated Hip Adduction",
+    "source_api_id": 12,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/12/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Seated Hip Adduction Legs Strength Guide",
+    "generated_description": "Seated Hip Adduction is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and minimal equipment expectations. Starting Position: Sit on the machine with your knees inward and against the pads. Pull the pin to release the pads. Grab the handles on the sides.b This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Barbell Lunges Standing",
+    "source_api_id": 46,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/46/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "Barbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Barbell Lunges Standing Legs Strength Guide",
+    "generated_description": "Barbell Lunges Standing is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including Barbell. Put barbell on the back of your shoulders. Stand upright, then take the first step forward. Step should bring you forward so that your supporting legs knee can touch the floor. The This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Barbell Lunges Walking",
+    "source_api_id": 802,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/802/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "Barbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Barbell Lunges Walking Legs Strength Guide",
+    "generated_description": "Barbell Lunges Walking is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including Barbell. The imported record has been normalized into an Egyma-ready catalog description.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Barbell Ab Rollout",
+    "source_api_id": 41,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/41/",
+    "source_category_id": 10,
+    "source_category_name": "Abs",
+    "source_equipment_names": [
+      "Barbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building"
+    ],
+    "generated_title": "Barbell Ab Rollout Abs Muscle Builder",
+    "generated_description": "Barbell Ab Rollout is seeded from the public Wger API. It is based on the source category Abs with a all-levels difficulty profile and equipment cues including Barbell. Place a barbell on the floor at your feet. Bending at the waist, grip the barbell with a shoulder with overhand grip. With a slow controlled motion, roll the bar out so that your b This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Barbell Triceps Extension",
+    "source_api_id": 50,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/50/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [
+      "Barbell"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Muscle Building"
+    ],
+    "generated_title": "Barbell Triceps Extension Arms Muscle Builder",
+    "generated_description": "Barbell Triceps Extension is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and equipment cues including Barbell. Position barbell overhead with narrow overhand grip. Lower forearm behind upper arm with elbows remaining overhead. Extend forearm overhead. Lower and repeat. This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "Barbell Reverse Wrist Curl",
+    "source_api_id": 48,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/48/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [
+      "Barbell",
+      "Bench"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Barbell Reverse Wrist Curl Arms Strength Guide",
+    "generated_description": "Barbell Reverse Wrist Curl is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and equipment cues including Barbell, Bench. Sitting on a bench, grab a barbell with your palms facing down and your hands shoulder-width apart. Rest your forearms on your thighs and allow your wrists to hang over your knees. This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Elliptical",
+    "source_api_id": 962,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/962/",
+    "source_category_id": 15,
+    "source_category_name": "Cardio",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Muscle Building",
+      "Mobility & Recovery"
+    ],
+    "generated_title": "Elliptical Cardio Mobility Drill",
+    "generated_description": "Elliptical is seeded from the public Wger API. It is based on the source category Cardio with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). It improves muscle toning, strengthens the leg muscles (quads, glutes, calves), helps vascularisation and increases resistance. The elliptical is also very useful if you aim to los This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 34
+  },
+  {
+    "source_name": "High knees",
+    "source_api_id": 983,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/983/",
+    "source_category_id": 15,
+    "source_category_name": "Cardio",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training",
+      "Mobility & Recovery"
+    ],
+    "generated_title": "High knees Cardio Mobility Drill",
+    "generated_description": "High knees is seeded from the public Wger API. It is based on the source category Cardio with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Starting positionStand straight.Steps:Run in place, putting knees as high up as is comfortable and switching legs at a quick pace. This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Lunges",
+    "source_api_id": 984,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/984/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Lunges Legs Strength Guide",
+    "generated_description": "Lunges is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Starting position:Stand with back straight.Steps:Take a large step forward with your left leg.Bring your pelvis down until you almost touch the floor with your right knee.Bring you This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Pullup on fingerboard",
+    "source_api_id": 821,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/821/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Pullup on fingerboard Arms Strength Guide",
+    "generated_description": "Pullup on fingerboard is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Pullup on a choosen edge of a fingerboard / hangboard This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Push-up rotations",
+    "source_api_id": 985,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/985/",
+    "source_category_id": 8,
+    "source_category_name": "Arms",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Push-up rotations Arms Strength Guide",
+    "generated_description": "Push-up rotations is seeded from the public Wger API. It is based on the source category Arms with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Starting position:Get into the starting push-up position, with your hands and toes touching the ground and back, arms and legs straight. To get to this position, you can lie down o This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Side split squats left",
+    "source_api_id": 986,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/986/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Side split squats left Legs Strength Guide",
+    "generated_description": "Side split squats left is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Starting position:Stand tall and take a wide lateral stride, just greater than shoulder width.Steps:Bend one knee until your thigh is parallel to the floor. The bent knee must be i This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Side split squats right",
+    "source_api_id": 987,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/987/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Side split squats right Legs Strength Guide",
+    "generated_description": "Side split squats right is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Starting position:Stand tall and take a wide lateral stride, just greater than shoulder width.Steps:Bend one knee until your thigh is parallel to the floor. The bent knee must be i This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Bulgarian split squats left",
+    "source_api_id": 988,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/988/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Bulgarian split squats left Legs Strength Guide",
+    "generated_description": "Bulgarian split squats left is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Stand tall in front of a chair and take a large step. Put the upper part of one of your feet on the chair.Bend the front knee, balancing with arms until the back knee almost touche This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  },
+  {
+    "source_name": "Bulgarian split squats right",
+    "source_api_id": 989,
+    "source_api_url": "https://wger.de/api/v2/exerciseinfo/989/",
+    "source_category_id": 9,
+    "source_category_name": "Legs",
+    "source_equipment_names": [
+      "none (bodyweight exercise)"
+    ],
+    "source_level": "all-levels",
+    "category_names": [
+      "Strength Training"
+    ],
+    "generated_title": "Bulgarian split squats right Legs Strength Guide",
+    "generated_description": "Bulgarian split squats right is seeded from the public Wger API. It is based on the source category Legs with a all-levels difficulty profile and equipment cues including none (bodyweight exercise). Stand tall in front of a chair and take a large step. Put the upper part of one of your feet on the chair.Bend the front knee, balancing with arms until the back knee almost touche This metadata has been normalized for the Egyma catalog.",
+    "generated_price": 29
+  }
+]

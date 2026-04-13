@@ -27,6 +27,8 @@ class DarebeeScrapedSeedDataTest < ActiveSupport::TestCase
     )
 
     assert_equal 'Hip Opener Workout', record[:source_title]
+    assert_equal 'mobility', record[:source_category_name]
+    assert_includes record[:source_tags], 'mobility'
     assert_includes record[:category_names], 'Mobility & Recovery'
     assert_equal 'all-levels', record[:difficulty_hint]
     assert_equal 'single-session workout', record[:duration_hint]

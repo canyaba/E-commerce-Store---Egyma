@@ -1,0 +1,34 @@
+[
+  {
+    "source_category_id": 10,
+    "source_category_name": "Abs"
+  },
+  {
+    "source_category_id": 8,
+    "source_category_name": "Arms"
+  },
+  {
+    "source_category_id": 12,
+    "source_category_name": "Back"
+  },
+  {
+    "source_category_id": 14,
+    "source_category_name": "Calves"
+  },
+  {
+    "source_category_id": 15,
+    "source_category_name": "Cardio"
+  },
+  {
+    "source_category_id": 11,
+    "source_category_name": "Chest"
+  },
+  {
+    "source_category_id": 9,
+    "source_category_name": "Legs"
+  },
+  {
+    "source_category_id": 13,
+    "source_category_name": "Shoulders"
+  }
+]

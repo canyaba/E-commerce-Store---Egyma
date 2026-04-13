@@ -1,0 +1,23 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 101,
+      "name": "Push-Up",
+      "description": "<p>A foundational bodyweight pressing movement for upper-body strength.</p>",
+      "category": { "id": 11, "name": "Chest" },
+      "equipment": [{ "id": 7, "name": "Body weight" }],
+      "level": "beginner"
+    },
+    {
+      "id": 102,
+      "name": "Shoulder Stretch",
+      "description": "<p>A recovery drill used to open the chest and shoulders after training.</p>",
+      "category": { "id": 15, "name": "Stretching" },
+      "equipment": [],
+      "level": "all-levels"
+    }
+  ]
+}
