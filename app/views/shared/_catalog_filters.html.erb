@@ -1,0 +1,17 @@
+<section class="rounded-4 border bg-white p-3 p-lg-4 mb-4" aria-labelledby="catalog-filter-heading">
+  <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-3">
+    <div>
+      <h2 id="catalog-filter-heading" class="h5 mb-1">Filter products</h2>
+      <p class="mb-0 text-muted">Use these catalog filters without changing the separate search and category-browsing flows.</p>
+    </div>
+
+    <div class="d-flex flex-wrap gap-2">
+      <% catalog_filter_options.each do |label, value| %>
+        <% active_filter = selected_catalog_filter == value %>
+        <%= link_to label,
+                    catalog_filter_path(path: path, filter: value, base_params: base_params),
+                    class: "btn #{active_filter ? 'btn-dark' : 'btn-outline-secondary'}" %>
+      <% end %>
+    </div>
+  </div>
+</section>

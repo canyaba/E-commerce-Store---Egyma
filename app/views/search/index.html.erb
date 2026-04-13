@@ -15,6 +15,10 @@
     <p class="mb-0 text-muted"><%= pluralize(@products.total_count, 'product') %> found</p>
   </div>
 
+  <%= render 'shared/catalog_filters',
+             path: search_path,
+             base_params: { query: @query, category_id: @selected_category_id.presence } %>
+
   <%= render 'shared/product_grid', products: @products %>
 
   <div class="mt-4 d-flex justify-content-center">

@@ -76,6 +76,39 @@ def featured_product_definitions
 end
 # rubocop:enable Metrics/MethodLength
 
+def seeded_product_timestamps(index)
+  return recent_new_product_timestamps(index) if (index % 6).zero?
+  return recently_updated_product_timestamps(index) if (index % 6) == 1
+
+  archived_catalog_product_timestamps(index)
+end
+
+def recent_new_product_timestamps(index)
+  created_at = Time.zone.now.advance(days: -4, hours: -index)
+  [created_at, created_at + 2.hours]
+end
+
+def recently_updated_product_timestamps(index)
+  [
+    Time.zone.now.advance(days: -45, hours: -index),
+    Time.zone.now.advance(days: -3, hours: -index)
+  ]
+end
+
+def archived_catalog_product_timestamps(index)
+  created_at = Time.zone.now - (90 + index).days
+  [created_at, created_at + 6.hours]
+end
+
+def apply_seeded_product_timestamps(product, index)
+  created_at, updated_at = seeded_product_timestamps(index)
+
+  Product.record_timestamps = false
+  product.update!(created_at: created_at, updated_at: updated_at)
+ensure
+  Product.record_timestamps = true
+end
+
 admin_email = ENV.fetch('EGYMA_ADMIN_EMAIL', 'admin@egyma.local')
 admin_password = ENV.fetch('EGYMA_ADMIN_PASSWORD', 'Password123!')
 
@@ -176,11 +209,12 @@ end
 scraped_product_definitions = DarebeeScrapedSeedData.seed_product_definitions
 all_product_definitions = featured_product_definitions + scraped_product_definitions
 
-all_product_definitions.each do |definition|
+all_product_definitions.each_with_index do |definition, index|
   product = Product.find_or_initialize_by(title: definition[:title])
   product.description = definition[:description]
   product.price = definition[:price]
   product.active = true
   product.categories = definition[:category_names].map { |name| categories.fetch(name) }
   product.save!
+  apply_seeded_product_timestamps(product, index)
 end

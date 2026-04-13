@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 class Product < ApplicationRecord
+  NEW_ARRIVAL_WINDOW = 14.days
+  RECENTLY_UPDATED_WINDOW = 14.days
+
   has_one_attached :image
 
   has_many :product_categories, dependent: :destroy
@@ -8,6 +11,15 @@ class Product < ApplicationRecord
 
   scope :catalog_order, -> { order(:title) }
   scope :active_catalog, -> { where(active: true).catalog_order }
+  scope :new_arrivals, lambda {
+    where(created_at: NEW_ARRIVAL_WINDOW.ago..Time.current)
+      .reorder(created_at: :desc, title: :asc)
+  }
+  scope :recently_updated_catalog, lambda {
+    where(updated_at: RECENTLY_UPDATED_WINDOW.ago..Time.current)
+      .where(products: { created_at: ...NEW_ARRIVAL_WINDOW.ago })
+      .reorder(updated_at: :desc, title: :asc)
+  }
   scope :keyword_search, lambda { |query|
     if query.present?
       sanitized_query = ActiveRecord::Base.sanitize_sql_like(query.strip)
@@ -19,6 +31,16 @@ class Product < ApplicationRecord
   scope :for_category, lambda { |category_id|
     if category_id.present?
       joins(:product_categories).where(product_categories: { category_id: category_id }).distinct
+    else
+      all
+    end
+  }
+  scope :for_catalog_filter, lambda { |filter|
+    case filter.to_s
+    when 'new'
+      new_arrivals
+    when 'recently_updated'
+      recently_updated_catalog
     else
       all
     end
