@@ -19,4 +19,17 @@ class SearchControllerTest < ActionDispatch::IntegrationTest
     assert_select 'article[data-testid="product-card"]', /#{Regexp.escape(products(:four).title)}/
     assert_select 'article[data-testid="product-card"]', text: products(:one).title, count: 0
   end
+
+  test 'filters search results to new products while preserving category search' do
+    age_all_products!(created_at: 45.days.ago, updated_at: 40.days.ago)
+    set_product_timestamps!(products(:two), created_at: 5.days.ago, updated_at: 4.days.ago)
+    set_product_timestamps!(products(:four), created_at: 30.days.ago, updated_at: 29.days.ago)
+
+    get search_url(query: 'reset', category_id: categories(:two).id, filter: 'new')
+
+    assert_response :success
+    assert_select 'article[data-testid="product-card"]', /#{Regexp.escape(products(:two).title)}/
+    assert_select 'article[data-testid="product-card"]', text: products(:four).title, count: 0
+    assert_select 'a.btn.btn-dark', text: 'New this week'
+  end
 end

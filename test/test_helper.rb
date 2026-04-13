@@ -14,6 +14,18 @@ module ActiveSupport
     fixtures :all
 
     # Add more helper methods to be used by all tests here...
+    def set_product_timestamps!(product, created_at:, updated_at:)
+      Product.record_timestamps = false
+      product.update!(created_at: created_at, updated_at: updated_at)
+    ensure
+      Product.record_timestamps = true
+    end
+
+    def age_all_products!(created_at:, updated_at:)
+      Product.find_each do |product|
+        set_product_timestamps!(product, created_at: created_at, updated_at: updated_at)
+      end
+    end
   end
 end
 
