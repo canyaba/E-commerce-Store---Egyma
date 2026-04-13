@@ -14,6 +14,7 @@ This application was built for a college ecommerce project and follows a foundat
 - Province-based tax calculation
 - Order snapshotting for historical price and tax preservation
 - Stripe sandbox payment flow
+- Breadcrumb navigation and multi-size image variants
 
 ## Tech Stack
 
@@ -50,6 +51,7 @@ This application was built for a college ecommerce project and follows a foundat
 - Pagination
 - Reusable partial-based UI
 - Responsive SCSS styling with Bootstrap utilities
+- Breadcrumb navigation for key storefront/account flows
 - Public About and Contact pages
 
 ### Customer Account and Ecommerce Flow
@@ -62,6 +64,8 @@ This application was built for a college ecommerce project and follows a foundat
 - Order and order item snapshots
 - Past order history
 - Stripe sandbox payment confirmation
+- Saved account billing details with province profile management
+- End-to-end browser coverage for key admin and customer flows
 
 ## Domain Model
 
@@ -95,6 +99,7 @@ Before running the project locally, make sure you have:
 - Bundler
 - PostgreSQL running locally or in Docker
 - ImageMagick or libvips support for Active Storage variants
+- Docker Desktop if you want to run the full app stack through `compose.yml`
 
 ## Environment Variables
 
@@ -125,6 +130,20 @@ STRIPE_SECRET_KEY=sk_test_your_key_here
 ```
 
 If `STRIPE_SECRET_KEY` is not set, the order page will still work, but the Stripe payment action will remain unavailable.
+
+### Optional S3-Compatible Active Storage
+
+Cloud-backed file storage can be enabled in production by setting:
+
+```env
+ACTIVE_STORAGE_SERVICE=amazon
+AWS_ACCESS_KEY_ID=your_access_key
+AWS_SECRET_ACCESS_KEY=your_secret_key
+AWS_REGION=ca-central-1
+AWS_BUCKET=your-bucket-name
+```
+
+This is configured in `config/storage.yml`, but you still need a real bucket and credentials to use it.
 
 ### Seeded Admin Credentials
 
@@ -183,6 +202,21 @@ docker run --name egyma-postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=
 
 You should also create the test database, either manually or by adjusting the environment and running `rails db:create`.
 
+## Local Docker Compose
+
+The repository also includes `compose.yml` so the app and PostgreSQL can run together in containers:
+
+```bash
+docker compose up --build
+```
+
+This starts:
+
+- `db` on PostgreSQL 16
+- `web` on `http://127.0.0.1:3000`
+
+The containerized app uses the production Docker image with local disk storage and an internal PostgreSQL service, which is enough for local rubric evidence around containerization.
+
 ## Useful Routes
 
 - `/` - storefront home page
@@ -212,6 +246,12 @@ Check Zeitwerk loading:
 
 ```bash
 bundle exec rails zeitwerk:check
+```
+
+Run browser-level system tests:
+
+```bash
+bundle exec rails test:system
 ```
 
 ## Source Control Workflow
@@ -248,6 +288,15 @@ bundle exec rake data:scrape_darebee[120]
 ```
 
 The scraper uses public DAREBEE metadata only. It does not copy long-form page content into the application.
+
+## Continuous Integration
+
+GitHub Actions CI is configured in `.github/workflows/ci.yml` to run:
+
+- `bundle exec rails test`
+- `bundle exec rubocop app config db test`
+
+This gives the project a repeatable quality gate on pushes and pull requests.
 
 ## Payment Notes
 

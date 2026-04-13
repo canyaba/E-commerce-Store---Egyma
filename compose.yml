@@ -1,0 +1,42 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: egyma_production
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d egyma_production"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ACTIVE_STORAGE_SERVICE: local
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_PRODUCTION_DB: egyma_production
+      POSTGRES_PRODUCTION_USER: postgres
+      POSTGRES_PRODUCTION_PASSWORD: postgres
+      RAILS_ENV: production
+      SECRET_KEY_BASE: docker-local-secret-key
+    ports:
+      - "3000:80"
+    volumes:
+      - rails_storage:/rails/storage
+
+volumes:
+  postgres_data:
+  rails_storage:
